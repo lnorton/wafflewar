@@ -1,0 +1,4060 @@
+{
+ "states": {
+  "AL": {
+   "is_complete": true,
+   "locations": [
+    {
+     "link": "/al/albertville/8081-us-431",
+     "name": "Albertville",
+     "address": [
+      "8081 U.S. 431",
+      "Albertville, AL 35950 US"
+     ],
+     "coords": [
+      34.28060485439724,
+      -86.21906838335235
+     ]
+    },
+    {
+     "link": "/al/alexander-city/4727-us-280",
+     "name": "Alexander City",
+     "address": [
+      "4727 U.S. 280",
+      "Alexander City, AL 35010 US"
+     ],
+     "coords": [
+      32.91676229573396,
+      -85.95278397202492
+     ]
+    },
+    {
+     "link": "/al/alexandria/6371-us-highway-431",
+     "name": "Alexandria",
+     "address": [
+      "6371 US Highway 431",
+      "Alexandria, AL 36250 US"
+     ],
+     "coords": [
+      33.76420455824902,
+      -85.89246847112014
+     ]
+    },
+    {
+     "link": "/al/andalusia/1209-east-bypass",
+     "name": "Andalusia",
+     "address": [
+      "1209 East Bypass",
+      "Andalusia, AL 36420 US"
+     ],
+     "coords": [
+      31.3191273,
+      -86.4598844
+     ]
+    },
+    {
+     "link": "/al/arab/759-n-brindlee-mountain-pkwy",
+     "name": "Arab",
+     "address": [
+      "759 N Brindlee Mountain Pkwy",
+      "Arab, AL 35016 US"
+     ],
+     "coords": [
+      34.327781660858555,
+      -86.50369495153427
+     ]
+    },
+    {
+     "link": "/al/ashville/37177-us-231-1",
+     "name": "Ashville",
+     "address": [
+      "37177 U.S. 231 #1",
+      "Ashville, AL 35953 US"
+     ],
+     "coords": [
+      33.86630433871688,
+      -86.29014551639557
+     ]
+    },
+    {
+     "link": "/al/boaz/1450-us-431",
+     "name": "Boaz",
+     "address": [
+      "1450 U.S. 431",
+      "Boaz, AL 35957 US"
+     ],
+     "coords": [
+      34.20700650553199,
+      -86.15296125411987
+     ]
+    },
+    {
+     "link": "/al/brewton/1715-douglas-ave",
+     "name": "Brewton",
+     "address": [
+      "1715 Douglas Ave",
+      "Brewton, AL 36426 US"
+     ],
+     "coords": [
+      31.136695285663077,
+      -87.06910997629166
+     ]
+    },
+    {
+     "link": "/al/brookwood/10902-covered-bridge-rd",
+     "name": "Brookwood",
+     "address": [
+      "10902 Covered Bridge Rd",
+      "Brookwood, AL 35444 US"
+     ],
+     "coords": [
+      33.19159518561589,
+      -87.2996860742569
+     ]
+    },
+    {
+     "link": "/al/centre/1580-west-main-street",
+     "name": "Centre",
+     "address": [
+      "1580 West Main Street",
+      "Centre, AL 35960 US"
+     ],
+     "coords": [
+      34.15910822160013,
+      -85.7056412100792
+     ]
+    },
+    {
+     "link": "/al/chelsea/16937-us-280",
+     "name": "Chelsea",
+     "address": [
+      "16937 U.S. 280",
+      "Chelsea, AL 35043 US"
+     ],
+     "coords": [
+      33.3468153,
+      -86.6361877
+     ]
+    },
+    {
+     "link": "/al/demopolis/971-highway-80-west",
+     "name": "Demopolis",
+     "address": [
+      "971 Highway 80 West",
+      "Demopolis, AL 36732 US"
+     ],
+     "coords": [
+      32.495894089776286,
+      -87.84945006816712
+     ]
+    },
+    {
+     "link": "/al/enterprise/6024-boll-weevil-cir",
+     "name": "Enterprise",
+     "address": [
+      "6024 Boll Weevil Cir",
+      "Enterprise, AL 36330 US"
+     ],
+     "coords": [
+      31.29116257294917,
+      -85.84437310695643
+     ]
+    },
+    {
+     "link": "/al/florala/1076-3rd-st",
+     "name": "Florala",
+     "address": [
+      "1076 3rd St",
+      "Florala, AL 36442 US"
+     ],
+     "coords": [
+      31.00328122193911,
+      -86.32675834380734
+     ]
+    },
+    {
+     "link": "/al/fort-payne/120-airport-rd-w",
+     "name": "Fort Payne",
+     "address": [
+      "120 Airport Rd W",
+      "Fort Payne, AL 35968 US"
+     ],
+     "coords": [
+      34.43937830700009,
+      -85.75174033641815
+     ]
+    },
+    {
+     "link": "/al/guntersville/1830-gunter-ave",
+     "name": "Guntersville",
+     "address": [
+      "1830 Gunter Ave",
+      "Guntersville, AL 35976 US"
+     ],
+     "coords": [
+      34.34053929315208,
+      -86.31041765213013
+     ]
+    },
+    {
+     "link": "/al/hamilton/210-river-road-dr",
+     "name": "Hamilton",
+     "address": [
+      "210 River Road Dr",
+      "Hamilton, AL 35570 US"
+     ],
+     "coords": [
+      34.092177849584345,
+      -88.00676166713629
+     ]
+    },
+    {
+     "link": "/al/hartselle/1802-main-st-e",
+     "name": "Hartselle",
+     "address": [
+      "1802 Main St E",
+      "Hartselle, AL 35640 US"
+     ],
+     "coords": [
+      34.448669652787395,
+      -86.90352514386171
+     ]
+    },
+    {
+     "link": "/al/hokes-bluff/5714-hwy-278-east",
+     "name": "Hokes Bluff",
+     "address": [
+      "5714 Hwy 278 East",
+      "Hokes Bluff, AL 35903 US"
+     ],
+     "coords": [
+      33.986425408101944,
+      -85.86539357900614
+     ]
+    },
+    {
+     "link": "/al/hueytown/2751-allison-bonnet-memorial-parkway",
+     "name": "Hueytown",
+     "address": [
+      "2751 Allison Bonnet Memorial Parkway",
+      "Hueytown, AL 35023 US"
+     ],
+     "coords": [
+      33.4547917,
+      -86.96679189999999
+     ]
+    },
+    {
+     "link": "/al/jacksonville/1015-pelham-rd-s",
+     "name": "Jacksonville",
+     "address": [
+      "1015 Pelham Rd S",
+      "Jacksonville, AL 36265 US"
+     ],
+     "coords": [
+      33.80274022961918,
+      -85.76187372207642
+     ]
+    },
+    {
+     "link": "/al/monroeville/4482-s-alabama-ave",
+     "name": "Monroeville",
+     "address": [
+      "4482 S Alabama Ave",
+      "Monroeville, AL 36460 US"
+     ],
+     "coords": [
+      31.46941604189351,
+      -87.34413564205175
+     ]
+    },
+    {
+     "link": "/al/montevallo/4653-alabama-25",
+     "name": "Montevallo",
+     "address": [
+      "4653 Alabama 25",
+      "Montevallo, AL 35115 US"
+     ],
+     "coords": [
+      33.09454369368221,
+      -86.85380637645721
+     ]
+    },
+    {
+     "link": "/al/oneonta/1009-2nd-avenue-east",
+     "name": "Oneonta",
+     "address": [
+      "1009 2nd Avenue East",
+      "Oneonta, AL 35121 US"
+     ],
+     "coords": [
+      33.957564014614,
+      -86.46339744329453
+     ]
+    },
+    {
+     "link": "/al/opelika/2020-gateway-dr",
+     "name": "Opelika",
+     "address": [
+      "2020 Gateway Dr",
+      "Opelika, AL 36801 US"
+     ],
+     "coords": [
+      32.62717408237591,
+      -85.40574580133352
+     ]
+    },
+    {
+     "link": "/al/owens-cross-roads/3101-mountain-cove-circle",
+     "name": "Owens Cross Roads",
+     "address": [
+      "3101 Mountain Cove Circle",
+      "Owens Cross Roads, AL 35763 US"
+     ],
+     "coords": [
+      34.6614608,
+      -86.485176
+     ]
+    },
+    {
+     "link": "/al/pell-city/611-martin-street-n",
+     "name": "Pell City",
+     "address": [
+      "611 Martin Street N",
+      "Pell City, AL 35125 US"
+     ],
+     "coords": [
+      33.59426829734828,
+      -86.28323793558197
+     ]
+    },
+    {
+     "link": "/al/piedmont/505-highway-278",
+     "name": "Piedmont",
+     "address": [
+      "505 Highway 278 East Highway 278 Bypass",
+      "Piedmont, AL 36272 US"
+     ],
+     "coords": [
+      33.9335805,
+      -85.6024248
+     ]
+    },
+    {
+     "link": "/al/pinson/4655-center-point-road",
+     "name": "Pinson",
+     "address": [
+      "4655 Center Point Road",
+      "Pinson, AL 35126 US"
+     ],
+     "coords": [
+      33.6934927,
+      -86.6815892
+     ]
+    },
+    {
+     "link": "/al/rainbow-city/109-w-grand-ave",
+     "name": "Rainbow City",
+     "address": [
+      "109 W Grand Ave",
+      "Rainbow City, AL 35906 US"
+     ],
+     "coords": [
+      33.95559730199468,
+      -86.04166030883789
+     ]
+    },
+    {
+     "link": "/al/roanoke/3106-us-431",
+     "name": "Roanoke",
+     "address": [
+      "3106 U.S. 431",
+      "Roanoke, AL 36274 US"
+     ],
+     "coords": [
+      33.149750570092216,
+      -85.35762660581895
+     ]
+    },
+    {
+     "link": "/al/russellville/15485-us-hwy-43",
+     "name": "Russellville",
+     "address": [
+      "15485 US Hwy. 43",
+      "Russellville, AL 35653 US"
+     ],
+     "coords": [
+      34.51574,
+      -87.718615
+     ]
+    },
+    {
+     "link": "/al/saraland/803-saraland-boulevard",
+     "name": "Saraland",
+     "address": [
+      "803 Saraland Boulevard",
+      "Saraland, AL 36571 US"
+     ],
+     "coords": [
+      30.8043626,
+      -88.072229
+     ]
+    },
+    {
+     "link": "/al/scottsboro/1402-county-park-rd",
+     "name": "Scottsboro",
+     "address": [
+      "1402 County Park Rd",
+      "Scottsboro, AL 35769 US"
+     ],
+     "coords": [
+      34.64637347437003,
+      -86.0337746143341
+     ]
+    },
+    {
+     "link": "/al/selma/1334-highland-avenue",
+     "name": "Selma",
+     "address": [
+      "1334 Highland Avenue",
+      "Selma, AL 36701 US"
+     ],
+     "coords": [
+      32.4319132,
+      -87.04250220000002
+     ]
+    },
+    {
+     "link": "/al/sylacauga/40930-us-hwy-280",
+     "name": "Sylacauga",
+     "address": [
+      "40930 US Hwy 280 # 620-D",
+      "Sylacauga, AL 35150 US"
+     ],
+     "coords": [
+      33.175305870816615,
+      -86.29171467341621
+     ]
+    },
+    {
+     "link": "/al/talladega/719-east-battle-street",
+     "name": "Talladega",
+     "address": [
+      "719 East Battle Street",
+      "Talladega, AL 35160 US"
+     ],
+     "coords": [
+      33.4379834,
+      -86.0873782
+     ]
+    },
+    {
+     "link": "/al/tallassee/1410-gilmer-ave-b",
+     "name": "Tallassee",
+     "address": [
+      "1410 Gilmer Ave B",
+      "Tallassee, AL 36078 US"
+     ],
+     "coords": [
+      32.5525581243619,
+      -85.92086166143417
+     ]
+    },
+    {
+     "link": "/al/troy/1677-us-231",
+     "name": "Troy",
+     "address": [
+      "1677 U.S. 231",
+      "Troy, AL 36081 US"
+     ],
+     "coords": [
+      31.776852258733037,
+      -85.9366250038147
+     ]
+    },
+    {
+     "link": "/al/tuskegee/3680-alabama-highway-81-north",
+     "name": "Tuskegee",
+     "address": [
+      "3680 Alabama Highway 81 North",
+      "Tuskegee, AL 36083 US"
+     ],
+     "coords": [
+      32.4890192,
+      -85.69475159999999
+     ]
+    },
+    {
+     "link": "/al/warrior/405-warrior-jasper-rd",
+     "name": "Warrior",
+     "address": [
+      "405 Warrior Jasper Rd",
+      "Warrior, AL 35180 US"
+     ],
+     "coords": [
+      33.8123114,
+      -86.8275206
+     ]
+    },
+    {
+     "link": "/al/wetumpka/5881-us-hwy-231",
+     "name": "Wetumpka",
+     "address": [
+      "5881 U.S. Hwy. 231",
+      "Wetumpka, AL 36092 US"
+     ],
+     "coords": [
+      32.52568997166082,
+      -86.20756960637169
+     ]
+    },
+    {
+     "link": "/al/winfield/7126-al-129",
+     "name": "Winfield",
+     "address": [
+      "7126 AL-129",
+      "Winfield, AL 35594 US"
+     ],
+     "coords": [
+      33.988341,
+      -87.776165
+     ]
+    }
+   ]
+  },
+  "AR": {
+   "is_complete": true,
+   "locations": [
+    {
+     "link": "/ar/clinton/378-hwy-65-s",
+     "name": "Clinton",
+     "address": [
+      "378 Hwy 65 S",
+      "Clinton, AR 72031 US"
+     ],
+     "coords": [
+      35.596079016667595,
+      -92.45658963918686
+     ]
+    },
+    {
+     "link": "/ar/crossett/109-unity-lane",
+     "name": "Crossett",
+     "address": [
+      "109 Unity Lane",
+      "Crossett, AR 71635 US"
+     ],
+     "coords": [
+      33.136961,
+      -91.951332
+     ]
+    },
+    {
+     "link": "/ar/monticello/910-us-425",
+     "name": "Monticello",
+     "address": [
+      "910 U.S. 425",
+      "Monticello, AR 71655 US"
+     ],
+     "coords": [
+      33.645213179883136,
+      -91.80053204298025
+     ]
+    },
+    {
+     "link": "/ar/osceola/4563-w-keiser-ave",
+     "name": "Osceola",
+     "address": [
+      "4563 W Keiser Ave",
+      "Osceola, AR 72370 US"
+     ],
+     "coords": [
+      35.69782610843172,
+      -90.04562973976135
+     ]
+    },
+    {
+     "link": "/ar/paragould/2807-west-kingshighway",
+     "name": "Paragould",
+     "address": [
+      "2807 West Kingshighway",
+      "Paragould, AR 72450 US"
+     ],
+     "coords": [
+      36.0604257,
+      -90.5240268
+     ]
+    },
+    {
+     "link": "/ar/white-hall/7335-sheridan-rd",
+     "name": "White Hall",
+     "address": [
+      "7335 Sheridan Rd",
+      "White Hall, AR 71602 US"
+     ],
+     "coords": [
+      34.25794801590166,
+      -92.09488302469254
+     ]
+    }
+   ]
+  },
+  "FL": {
+   "is_complete": true,
+   "locations": [
+    {
+     "link": "/fl/brooksville/1170-s-broad-street",
+     "name": "Brooksville",
+     "address": [
+      "1170 S. Broad Street",
+      "Brooksville, FL 34601 US"
+     ],
+     "coords": [
+      28.543677937335612,
+      -82.40244045853615
+     ]
+    },
+    {
+     "link": "/fl/chiefland/1402-north-young-blvd",
+     "name": "Chiefland",
+     "address": [
+      "1402 North Young Blvd",
+      "Chiefland, FL 32626 US"
+     ],
+     "coords": [
+      29.49222956793888,
+      -82.86488129759164
+     ]
+    },
+    {
+     "link": "/fl/crystal-river/1208-north-5th-street",
+     "name": "Crystal River",
+     "address": [
+      "1208 North 5th Street",
+      "Crystal River, FL 34429 US"
+     ],
+     "coords": [
+      28.897646863763146,
+      -82.57060557603836
+     ]
+    },
+    {
+     "link": "/fl/inverness/321-south-highway-41",
+     "name": "Inverness",
+     "address": [
+      "321 South Highway 41",
+      "Inverness, FL 34450 US"
+     ],
+     "coords": [
+      28.83158504917524,
+      -82.3237926822091
+     ]
+    },
+    {
+     "link": "/fl/lake-city/3320-n-us-highway-441",
+     "name": "Lake City",
+     "address": [
+      "3320 N US Highway 441",
+      "Lake City, FL 32055 US"
+     ],
+     "coords": [
+      30.23609602518036,
+      -82.63918429613113
+     ]
+    },
+    {
+     "link": "/fl/middleburg/4094-county-road-218",
+     "name": "Middleburg",
+     "address": [
+      "4094 County Road 218",
+      "Middleburg, FL 32068 US"
+     ],
+     "coords": [
+      30.063506576759327,
+      -81.87766760587692
+     ]
+    },
+    {
+     "link": "/fl/ocala/331-nw-20th-street",
+     "name": "Ocala",
+     "address": [
+      "331 NW 20th Street",
+      "Ocala, FL 34475 US"
+     ],
+     "coords": [
+      29.2072668,
+      -82.1397602
+     ]
+    },
+    {
+     "link": "/fl/palatka/3909-crill-ave",
+     "name": "Palatka",
+     "address": [
+      "3909 Crill Ave",
+      "Palatka, FL 32177 US"
+     ],
+     "coords": [
+      29.64102459779364,
+      -81.67421145275512
+     ]
+    },
+    {
+     "link": "/fl/perry/2717-s-byron-butler-pkwy",
+     "name": "Perry",
+     "address": [
+      "2717 S Byron Butler Pkwy",
+      "Perry, FL 32348 US"
+     ],
+     "coords": [
+      30.08644604940656,
+      -83.57172936201096
+     ]
+    },
+    {
+     "link": "/fl/starke/650-n-temple-avenue",
+     "name": "Starke",
+     "address": [
+      "650 N Temple Avenue",
+      "Starke, FL 32091 US"
+     ],
+     "coords": [
+      29.95041335555525,
+      -82.10894918956001
+     ]
+    },
+    {
+     "link": "/fl/yulee/463949-florida-200",
+     "name": "Yulee",
+     "address": [
+      "463949 Florida 200",
+      "Yulee, FL 32097 US"
+     ],
+     "coords": [
+      30.624311289094305,
+      -81.53892070055008
+     ]
+    }
+   ]
+  },
+  "GA": {
+   "is_complete": true,
+   "locations": [
+    {
+     "link": "/ga/adel/1503-west-fourth-st",
+     "name": "Adel",
+     "address": [
+      "1503 West Fourth St.",
+      "Adel, GA 31620 US"
+     ],
+     "coords": [
+      31.1385059,
+      -83.4448852
+     ]
+    },
+    {
+     "link": "/ga/alma/902-s-pierce-st",
+     "name": "Alma",
+     "address": [
+      "902 S Pierce St",
+      "Alma, GA 31510 US"
+     ],
+     "coords": [
+      31.5353211,
+      -82.4628958
+     ]
+    },
+    {
+     "link": "/ga/augusta/1297-ellis-st",
+     "name": "Augusta",
+     "address": [
+      "1297 Ellis St",
+      "Augusta, GA 30901 US"
+     ],
+     "coords": [
+      33.47790317063987,
+      -81.97537981354344
+     ]
+    },
+    {
+     "link": "/ga/baxley/160-e-parker-st",
+     "name": "Baxley",
+     "address": [
+      "160 E Parker St",
+      "Baxley, GA 31513 US"
+     ],
+     "coords": [
+      31.77730144929599,
+      -82.34634071588516
+     ]
+    },
+    {
+     "link": "/ga/blackshear/3428-us-84",
+     "name": "Blackshear",
+     "address": [
+      "3428 U.S. 84",
+      "Blackshear, GA 31516 US"
+     ],
+     "coords": [
+      31.30233345743399,
+      -82.24633120380986
+     ]
+    },
+    {
+     "link": "/ga/blairsville/29-golf-course-road",
+     "name": "Blairsville",
+     "address": [
+      "29 Golf Course Road",
+      "Blairsville, GA 30512 US"
+     ],
+     "coords": [
+      34.87559597262065,
+      -83.96322593092918
+     ]
+    },
+    {
+     "link": "/ga/brunswick/5408-new-jesup-highway",
+     "name": "Brunswick",
+     "address": [
+      "5408 New Jesup Highway",
+      "Brunswick, GA 31523 US"
+     ],
+     "coords": [
+      31.225515997185713,
+      -81.52637600898743
+     ]
+    },
+    {
+     "link": "/ga/cairo/40-us-hwy-84-east",
+     "name": "Cairo",
+     "address": [
+      "40 US Hwy 84 East",
+      "Cairo, GA 39828 US"
+     ],
+     "coords": [
+      30.8861755,
+      -84.2073789
+     ]
+    },
+    {
+     "link": "/ga/calhoun/566-highway-53-east",
+     "name": "Calhoun",
+     "address": [
+      "566 Highway 53 East",
+      "Calhoun, GA 30701 US"
+     ],
+     "coords": [
+      34.474797334633266,
+      -84.92588013410563
+     ]
+    },
+    {
+     "link": "/ga/cedartown/115-east-ave",
+     "name": "Cedartown",
+     "address": [
+      "115 East Ave",
+      "Cedartown, GA 30125 US"
+     ],
+     "coords": [
+      34.014791221794745,
+      -85.2539250254631
+     ]
+    },
+    {
+     "link": "/ga/chatsworth/612-s-3rd-ave",
+     "name": "Chatsworth",
+     "address": [
+      "612 S 3rd Ave",
+      "Chatsworth, GA 30705 US"
+     ],
+     "coords": [
+      34.75923422364291,
+      -84.76889312267303
+     ]
+    },
+    {
+     "link": "/ga/chickamauga/14-bushrod-johnson-ave",
+     "name": "Chickamauga",
+     "address": [
+      "14 Bushrod Johnson Ave",
+      "Chickamauga, GA 30707 US"
+     ],
+     "coords": [
+      34.88577912712233,
+      -85.2689266204834
+     ]
+    },
+    {
+     "link": "/ga/clarkesville/459-washington-street",
+     "name": "Clarkesville",
+     "address": [
+      "459 Washington Street",
+      "Clarkesville, GA 30523 US"
+     ],
+     "coords": [
+      34.603404447212334,
+      -83.51971060037613
+     ]
+    },
+    {
+     "link": "/ga/claxton/102-plyer-st",
+     "name": "Claxton",
+     "address": [
+      "102 Plyer St.",
+      "Claxton, GA 30417 US"
+     ],
+     "coords": [
+      32.1686677,
+      -81.9010897
+     ]
+    },
+    {
+     "link": "/ga/clayton/143-highway-441-n",
+     "name": "Clayton",
+     "address": [
+      "143 Highway 441 N",
+      "Clayton, GA 30525 US"
+     ],
+     "coords": [
+      34.87997487690912,
+      -83.39708275117118
+     ]
+    },
+    {
+     "link": "/ga/cleveland/15-old-blairsville-rd",
+     "name": "Cleveland",
+     "address": [
+      "15 Old Blairsville Rd",
+      "Cleveland, GA 30528 US"
+     ],
+     "coords": [
+      34.60129382737156,
+      -83.76560345292091
+     ]
+    },
+    {
+     "link": "/ga/cochran/142-e-dykes-st",
+     "name": "Cochran",
+     "address": [
+      "142 E Dykes St",
+      "Cochran, GA 31014 US"
+     ],
+     "coords": [
+      32.38857896286252,
+      -83.35193849124153
+     ]
+    },
+    {
+     "link": "/ga/cumming/501-buford-rd",
+     "name": "Cumming",
+     "address": [
+      "501 Buford Rd",
+      "Cumming, GA 30040 US"
+     ],
+     "coords": [
+      34.18665411175076,
+      -84.14198577404022
+     ]
+    },
+    {
+     "link": "/ga/cuthbert/152-us-82",
+     "name": "Cuthbert",
+     "address": [
+      "152 U.S. 82",
+      "Cuthbert, GA 39840 US"
+     ],
+     "coords": [
+      31.769441439672104,
+      -84.77029860019684
+     ]
+    },
+    {
+     "link": "/ga/dawson/1085-forrester-drive-se",
+     "name": "Dawson",
+     "address": [
+      "1085 Forrester Drive SE",
+      "Dawson, GA 39842 US"
+     ],
+     "coords": [
+      31.75961158173337,
+      -84.43372629963505
+     ]
+    },
+    {
+     "link": "/ga/douglas/1612-peterson-ave-s",
+     "name": "Douglas",
+     "address": [
+      "1612 Peterson Ave S",
+      "Douglas, GA 31535 US"
+     ],
+     "coords": [
+      31.48466922842249,
+      -82.85089910030365
+     ]
+    },
+    {
+     "link": "/ga/douglas/1701-ocilla-rd",
+     "name": "Douglas",
+     "address": [
+      "1701 Ocilla Rd",
+      "Douglas, GA 31535 US"
+     ],
+     "coords": [
+      31.51358352239498,
+      -82.87249222397804
+     ]
+    },
+    {
+     "link": "/ga/east-dublin/721-central-dr",
+     "name": "East Dublin",
+     "address": [
+      "721 Central Dr",
+      "East Dublin, GA 31027 US"
+     ],
+     "coords": [
+      32.54862419534261,
+      -82.87474662065506
+     ]
+    },
+    {
+     "link": "/ga/eastman/102-fifth-avenue",
+     "name": "Eastman",
+     "address": [
+      "102 Fifth Avenue",
+      "Eastman, GA 31023 US"
+     ],
+     "coords": [
+      32.1980117,
+      -83.1791832
+     ]
+    },
+    {
+     "link": "/ga/eatonton/916-oak-street",
+     "name": "Eatonton",
+     "address": [
+      "916 Oak Street",
+      "Eatonton, GA 31024 US"
+     ],
+     "coords": [
+      33.302443680081524,
+      -83.3852407336235
+     ]
+    },
+    {
+     "link": "/ga/fitzgerald/265-ocilla-highway",
+     "name": "Fitzgerald",
+     "address": [
+      "265 Ocilla Highway",
+      "Fitzgerald, GA 31750 US"
+     ],
+     "coords": [
+      31.693594757826844,
+      -83.24629761655154
+     ]
+    },
+    {
+     "link": "/ga/flowery-branch/7378-friendship-springs-road",
+     "name": "Flowery Branch",
+     "address": [
+      "7378 Friendship Springs Road",
+      "Flowery Branch, GA 30542 US"
+     ],
+     "coords": [
+      34.109848064537424,
+      -83.87894511408615
+     ]
+    },
+    {
+     "link": "/ga/forsyth/325-cabiness-road",
+     "name": "Forsyth",
+     "address": [
+      "325 Cabiness Road",
+      "Forsyth, GA 31029 US"
+     ],
+     "coords": [
+      33.0434711,
+      -83.9361695
+     ]
+    },
+    {
+     "link": "/ga/fort-gordon/267-ave-of-the-states",
+     "name": "Fort Gordon",
+     "address": [
+      "267, Ave of the States",
+      "Fort Gordon, GA 30905 US"
+     ],
+     "coords": [
+      33.41352536454386,
+      -82.13648736476898
+     ]
+    },
+    {
+     "link": "/ga/gainesville/1920-jesse-jewell-pkwy",
+     "name": "Gainesville",
+     "address": [
+      "1920 Jesse Jewell Pkwy",
+      "Gainesville, GA 30501 US"
+     ],
+     "coords": [
+      34.31285985764668,
+      -83.7953907251358
+     ]
+    },
+    {
+     "link": "/ga/hahira/803-ga-highway-122-w",
+     "name": "Hahira",
+     "address": [
+      "803 GA Highway 122 W",
+      "Hahira, GA 31632 US"
+     ],
+     "coords": [
+      30.990220013258497,
+      -83.38232627116395
+     ]
+    },
+    {
+     "link": "/ga/harlem/175-east-milledgeville-court",
+     "name": "Harlem",
+     "address": [
+      "175 East Milledgeville Court",
+      "Harlem, GA 30814 US"
+     ],
+     "coords": [
+      33.414082000000015,
+      -82.31246363558193
+     ]
+    },
+    {
+     "link": "/ga/hartwell/324-east-franklin-street",
+     "name": "Hartwell",
+     "address": [
+      "324 East Franklin Street",
+      "Hartwell, GA 30643 US"
+     ],
+     "coords": [
+      34.352876469688866,
+      -82.92380958795547
+     ]
+    },
+    {
+     "link": "/ga/hawkinsville/156-broad-street",
+     "name": "Hawkinsville",
+     "address": [
+      "156 Broad Street",
+      "Hawkinsville, GA 31036 US"
+     ],
+     "coords": [
+      32.28194917569989,
+      -83.47308685400199
+     ]
+    },
+    {
+     "link": "/ga/hazlehurst/341-baxley-hwy",
+     "name": "Hazlehurst",
+     "address": [
+      "341 Baxley Hwy",
+      "Hazlehurst, GA 31539 US"
+     ],
+     "coords": [
+      31.8630648,
+      -82.5844227
+     ]
+    },
+    {
+     "link": "/ga/helen/8428-s-main-street",
+     "name": "Helen",
+     "address": [
+      "8428 S Main Street",
+      "Helen, GA 30545 US"
+     ],
+     "coords": [
+      34.7007887948589,
+      -83.72707353372948
+     ]
+    },
+    {
+     "link": "/ga/hephzibah/2626-tobacco-road",
+     "name": "Hephzibah",
+     "address": [
+      "2626 Tobacco Road",
+      "Hephzibah, GA 30815 US"
+     ],
+     "coords": [
+      33.379880763420516,
+      -82.08946659863386
+     ]
+    },
+    {
+     "link": "/ga/hiawassee/534-bell-creek-rd",
+     "name": "Hiawassee",
+     "address": [
+      "534 Bell Creek Rd",
+      "Hiawassee, GA 30546 US"
+     ],
+     "coords": [
+      34.95517708761077,
+      -83.75901728868484
+     ]
+    },
+    {
+     "link": "/ga/hinesville/710-e-oglethorpe-hwy",
+     "name": "Hinesville",
+     "address": [
+      "710 E Oglethorpe Hwy",
+      "Hinesville, GA 31313 US"
+     ],
+     "coords": [
+      31.85162950506685,
+      -81.58346146345139
+     ]
+    },
+    {
+     "link": "/ga/homerville/805-west-dame-avenue",
+     "name": "Homerville",
+     "address": [
+      "805 West Dame Avenue",
+      "Homerville, GA 31634 US"
+     ],
+     "coords": [
+      31.03399343088024,
+      -82.76192218065262
+     ]
+    },
+    {
+     "link": "/ga/jackson/2679-georgia-highway-16-west",
+     "name": "Jackson",
+     "address": [
+      "2679 Georgia Highway 16 West",
+      "Jackson, GA 30233 US"
+     ],
+     "coords": [
+      33.2620696,
+      -84.0893828
+     ]
+    },
+    {
+     "link": "/ga/jackson/775-e-3rd-street",
+     "name": "Jackson",
+     "address": [
+      "775 E 3rd Street",
+      "Jackson, GA 30233 US"
+     ],
+     "coords": [
+      33.294852876449156,
+      -83.95721077621374
+     ]
+    },
+    {
+     "link": "/ga/jeffersonville/5220-ga-96-w",
+     "name": "Jeffersonville",
+     "address": [
+      "5220 GA-96 W",
+      "Jeffersonville, GA 31044 US"
+     ],
+     "coords": [
+      32.62074819132633,
+      -83.3709043264389
+     ]
+    },
+    {
+     "link": "/ga/jesup/901-s-1st-st",
+     "name": "Jesup",
+     "address": [
+      "901 S 1st St",
+      "Jesup, GA 31545 US"
+     ],
+     "coords": [
+      31.603260889906256,
+      -81.90113297619064
+     ]
+    },
+    {
+     "link": "/ga/lakeland/251-west-main-street",
+     "name": "Lakeland",
+     "address": [
+      "251 West Main Street",
+      "Lakeland, GA 31635 US"
+     ],
+     "coords": [
+      31.04043767999063,
+      -83.07657413561168
+     ]
+    },
+    {
+     "link": "/ga/lincolnton/115-elm-street",
+     "name": "Lincolnton",
+     "address": [
+      "115 Elm Street",
+      "Lincolnton, GA 30817 US"
+     ],
+     "coords": [
+      33.78943770161807,
+      -82.47965455055237
+     ]
+    },
+    {
+     "link": "/ga/louisville/306-old-us-highway-1",
+     "name": "Louisville",
+     "address": [
+      "306 Old US Highway 1",
+      "Louisville, GA 30434 US"
+     ],
+     "coords": [
+      33.01149412781205,
+      -82.39984734110453
+     ]
+    },
+    {
+     "link": "/ga/ludowici/499-west-cypress-street",
+     "name": "Ludowici",
+     "address": [
+      "499 West Cypress Street",
+      "Ludowici, GA 31316 US"
+     ],
+     "coords": [
+      31.708862632644376,
+      -81.75312124573344
+     ]
+    },
+    {
+     "link": "/ga/macon/4900-ocmulgee-east-blvd",
+     "name": "Macon",
+     "address": [
+      "4900 Ocmulgee East Blvd",
+      "Macon, GA 31217 US"
+     ],
+     "coords": [
+      32.795863101903265,
+      -83.56960706793416
+     ]
+    },
+    {
+     "link": "/ga/marble-hill/35-foothills-pkwy",
+     "name": "Marble Hill",
+     "address": [
+      "35 Foothills Pkwy",
+      "Marble Hill, GA 30148 US"
+     ],
+     "coords": [
+      34.41261340719537,
+      -84.28335532248411
+     ]
+    },
+    {
+     "link": "/ga/mc-rae/90-west-oak-street",
+     "name": "Mc Rae",
+     "address": [
+      "90 West Oak Street",
+      "Mc Rae, GA 31055 US"
+     ],
+     "coords": [
+      32.06951077057157,
+      -82.90505155920982
+     ]
+    },
+    {
+     "link": "/ga/mcdonough/350-keys-ferry-street",
+     "name": "McDonough",
+     "address": [
+      "350 Keys Ferry Street",
+      "McDonough, GA 30253 US"
+     ],
+     "coords": [
+      33.4469477140779,
+      -84.13622436441801
+     ]
+    },
+    {
+     "link": "/ga/milledgeville/206-roberson-mill-rd-ne",
+     "name": "Milledgeville",
+     "address": [
+      "206 Roberson Mill Rd NE",
+      "Milledgeville, GA 31061 US"
+     ],
+     "coords": [
+      33.096954773350795,
+      -83.25865656137466
+     ]
+    },
+    {
+     "link": "/ga/milledgeville/300-east-hancock-street",
+     "name": "Milledgeville",
+     "address": [
+      "300 East Hancock Street",
+      "Milledgeville, GA 31061 US"
+     ],
+     "coords": [
+      33.082406480556294,
+      -83.22326451242361
+     ]
+    },
+    {
+     "link": "/ga/millen/412-us-25",
+     "name": "Millen",
+     "address": [
+      "412 U.S. 25",
+      "Millen, GA 30442 US"
+     ],
+     "coords": [
+      32.80462097588129,
+      -81.948740479354
+     ]
+    },
+    {
+     "link": "/ga/monroe/709-west-spring-street",
+     "name": "Monroe",
+     "address": [
+      "709 West Spring Street",
+      "Monroe, GA 30655 US"
+     ],
+     "coords": [
+      33.79353032147609,
+      -83.72684419155115
+     ]
+    },
+    {
+     "link": "/ga/montezuma/500-spaulding-rd",
+     "name": "Montezuma",
+     "address": [
+      "500 Spaulding Rd",
+      "Montezuma, GA 31063 US"
+     ],
+     "coords": [
+      32.293912176425216,
+      -84.01926398277283
+     ]
+    },
+    {
+     "link": "/ga/moultrie/401-veterans-pkwy-s",
+     "name": "Moultrie",
+     "address": [
+      "401 Veterans Pkwy S",
+      "Moultrie, GA 31768 US"
+     ],
+     "coords": [
+      31.173827636957153,
+      -83.7609142848168
+     ]
+    },
+    {
+     "link": "/ga/nahunta/101-allen-street",
+     "name": "Nahunta",
+     "address": [
+      "101 Allen Street",
+      "Nahunta, GA 31553 US"
+     ],
+     "coords": [
+      31.201155562316195,
+      -81.98714032472594
+     ]
+    },
+    {
+     "link": "/ga/nashville/718-south-davis-street",
+     "name": "Nashville",
+     "address": [
+      "718 South Davis Street",
+      "Nashville, GA 31639 US"
+     ],
+     "coords": [
+      31.196665547854398,
+      -83.25083792209625
+     ]
+    },
+    {
+     "link": "/ga/pelham/2457-us-highway-19-ne",
+     "name": "Pelham",
+     "address": [
+      "2457 US Highway 19 NE",
+      "Pelham, GA 31779 US"
+     ],
+     "coords": [
+      31.136345175592236,
+      -84.14110332727427
+     ]
+    },
+    {
+     "link": "/ga/rincon/460-s-columbia-ave",
+     "name": "Rincon",
+     "address": [
+      "460 S Columbia Ave",
+      "Rincon, GA 31326 US"
+     ],
+     "coords": [
+      32.27283775042923,
+      -81.22665603802875
+     ]
+    },
+    {
+     "link": "/ga/rome/299-sunset-drive",
+     "name": "Rome",
+     "address": [
+      "299 Sunset Drive",
+      "Rome, GA 30161 US"
+     ],
+     "coords": [
+      34.22437899372769,
+      -85.15286006409951
+     ]
+    },
+    {
+     "link": "/ga/savannah/13015-abercorn-extension",
+     "name": "Savannah",
+     "address": [
+      "13015 Abercorn Extension",
+      "Savannah, GA 31419 US"
+     ],
+     "coords": [
+      31.981665886066924,
+      -81.16630017757416
+     ]
+    },
+    {
+     "link": "/ga/snellville/3887-centerville-rosebud-rd",
+     "name": "Snellville",
+     "address": [
+      "3887 Centerville Rosebud Rd",
+      "Snellville, GA 30039 US"
+     ],
+     "coords": [
+      33.8043749,
+      -84.0418111
+     ]
+    },
+    {
+     "link": "/ga/soperton/10596-georgia-29",
+     "name": "Soperton",
+     "address": [
+      "10596 Georgia 29",
+      "Soperton, GA 30457 US"
+     ],
+     "coords": [
+      32.43672228174853,
+      -82.67721265554428
+     ]
+    },
+    {
+     "link": "/ga/springfield/1260-ga-21",
+     "name": "Springfield",
+     "address": [
+      "1260 GA-21",
+      "Springfield, GA 31329 US"
+     ],
+     "coords": [
+      32.35075195380134,
+      -81.29685938358307
+     ]
+    },
+    {
+     "link": "/ga/swainsboro/us-one-438-s-main-st",
+     "name": "Swainsboro",
+     "address": [
+      "U.S. One 438 S. Main St.",
+      "Swainsboro, GA 30401 US"
+     ],
+     "coords": [
+      32.58599825998652,
+      -82.32424136441801
+     ]
+    },
+    {
+     "link": "/ga/sylvania/401-w-ogeechee-street",
+     "name": "Sylvania",
+     "address": [
+      "401 W Ogeechee Street",
+      "Sylvania, GA 30467 US"
+     ],
+     "coords": [
+      32.748034117880934,
+      -81.64180823046996
+     ]
+    },
+    {
+     "link": "/ga/townsend/2201-georgia-57",
+     "name": "Townsend",
+     "address": [
+      "2201 Georgia 57",
+      "Townsend, GA 31331 US"
+     ],
+     "coords": [
+      31.533326543159017,
+      -81.44895374477812
+     ]
+    },
+    {
+     "link": "/ga/trenton/4980-highway-136-west",
+     "name": "Trenton",
+     "address": [
+      "4980 Highway 136 West",
+      "Trenton, GA 30752 US"
+     ],
+     "coords": [
+      34.86930678253492,
+      -85.51982045173645
+     ]
+    },
+    {
+     "link": "/ga/valdosta/419-e-northside-drive",
+     "name": "Valdosta",
+     "address": [
+      "419 E Northside Drive",
+      "Valdosta, GA 31602 US"
+     ],
+     "coords": [
+      30.87198800694726,
+      -83.27885493636131
+     ]
+    },
+    {
+     "link": "/ga/vidalia/2613-e-first-street",
+     "name": "Vidalia",
+     "address": [
+      "2613 E First Street",
+      "Vidalia, GA 30474 US"
+     ],
+     "coords": [
+      32.206059805082,
+      -82.37358397759635
+     ]
+    },
+    {
+     "link": "/ga/warner-robins/2075-watson-blvd",
+     "name": "Warner Robins",
+     "address": [
+      "2075 Watson Blvd",
+      "Warner Robins, GA 31093 US"
+     ],
+     "coords": [
+      32.61791748179156,
+      -83.65592926740646
+     ]
+    },
+    {
+     "link": "/ga/warner-robins/215-russell-parkway",
+     "name": "Warner Robins",
+     "address": [
+      "215 Russell Parkway",
+      "Warner Robins, GA 31088 US"
+     ],
+     "coords": [
+      32.59351116908734,
+      -83.62890265889553
+     ]
+    },
+    {
+     "link": "/ga/waycross/1010-memorial-dr",
+     "name": "Waycross",
+     "address": [
+      "1010 Memorial Dr",
+      "Waycross, GA 31501 US"
+     ],
+     "coords": [
+      31.209342110578103,
+      -82.34375774860382
+     ]
+    },
+    {
+     "link": "/ga/waynesboro/323-south-liberty-street",
+     "name": "Waynesboro",
+     "address": [
+      "323 South Liberty Street",
+      "Waynesboro, GA 30830 US"
+     ],
+     "coords": [
+      33.0832523,
+      -82.0111142
+     ]
+    },
+    {
+     "link": "/ga/wrens/704-n-main-st",
+     "name": "Wrens",
+     "address": [
+      "704 N. Main St",
+      "Wrens, GA 30833 US"
+     ],
+     "coords": [
+      33.21826810072549,
+      -82.37738728523254
+     ]
+    }
+   ]
+  },
+  "IL": {
+   "is_complete": true,
+   "locations": [
+    {
+     "link": "/il/greenville/1730-illinois-127",
+     "name": "Greenville",
+     "address": [
+      "1730 Illinois 127",
+      "Greenville, IL 62246 US"
+     ],
+     "coords": [
+      38.876423866941856,
+      -89.38983231782919
+     ]
+    },
+    {
+     "link": "/il/highland/12475-illinois-143",
+     "name": "Highland",
+     "address": [
+      "12475 Illinois 143",
+      "Highland, IL 62249 US"
+     ],
+     "coords": [
+      38.75904250888062,
+      -89.68497186899185
+     ]
+    },
+    {
+     "link": "/il/litchfield/11-corvette-dr",
+     "name": "Litchfield",
+     "address": [
+      "11 Corvette Dr",
+      "Litchfield, IL 62056 US"
+     ],
+     "coords": [
+      39.17857215520787,
+      -89.67566728591919
+     ]
+    },
+    {
+     "link": "/il/marion/305-comfort-drive",
+     "name": "Marion",
+     "address": [
+      "305 Comfort Drive",
+      "Marion, IL 62959 US"
+     ],
+     "coords": [
+      37.7325729,
+      -88.9625925
+     ]
+    },
+    {
+     "link": "/il/mascoutah/9810-perrin-rd",
+     "name": "Mascoutah",
+     "address": [
+      "9810 Perrin Rd",
+      "Mascoutah, IL 62258 US"
+     ],
+     "coords": [
+      38.5553895,
+      -89.8059843
+     ]
+    },
+    {
+     "link": "/il/metropolis/2105-e-5th-st",
+     "name": "Metropolis",
+     "address": [
+      "2105 E 5th St",
+      "Metropolis, IL 62960 US"
+     ],
+     "coords": [
+      37.16259303770034,
+      -88.6903390288353
+     ]
+    },
+    {
+     "link": "/il/mount-vernon/101-s-45th-st",
+     "name": "Mount Vernon",
+     "address": [
+      "101 S 45th St",
+      "Mount Vernon, IL 62864 US"
+     ],
+     "coords": [
+      38.3115076,
+      -88.9573314
+     ]
+    },
+    {
+     "link": "/il/vandalia/7-mattes-ave",
+     "name": "Vandalia",
+     "address": [
+      "7 Mattes Ave",
+      "Vandalia, IL 62471 US"
+     ],
+     "coords": [
+      38.9669666,
+      -89.1316167
+     ]
+    },
+    {
+     "link": "/il/williamsville/994-ann-rutledge-drive",
+     "name": "Williamsville",
+     "address": [
+      "994 Ann Rutledge Drive",
+      "Williamsville, IL 62693 US"
+     ],
+     "coords": [
+      39.96105755071977,
+      -89.56072932995994
+     ]
+    }
+   ]
+  },
+  "IN": {
+   "is_complete": true,
+   "locations": [
+    {
+     "link": "/in/lebanon/520-s-state-road-39",
+     "name": "Lebanon",
+     "address": [
+      "520 S State Road 39",
+      "Lebanon, IN 46052 US"
+     ],
+     "coords": [
+      40.03233419644624,
+      -86.47283626631179
+     ]
+    },
+    {
+     "link": "/in/new-haven/3105-s-doyle-rd",
+     "name": "New Haven",
+     "address": [
+      "3105 S Doyle Rd",
+      "New Haven, IN 46774 US"
+     ],
+     "coords": [
+      41.0594177,
+      -84.9799499
+     ]
+    }
+   ]
+  },
+  "KS": {
+   "is_complete": true,
+   "locations": [
+    {
+     "link": "/ks/emporia/4215-us-50",
+     "name": "Emporia",
+     "address": [
+      "4215 U.S. 50",
+      "Emporia, KS 66801 US"
+     ],
+     "coords": [
+      38.4113417,
+      -96.2371879
+     ]
+    },
+    {
+     "link": "/ks/salina/2250-n-ohio-st",
+     "name": "Salina",
+     "address": [
+      "2250 N Ohio St",
+      "Salina, KS 67401 US"
+     ],
+     "coords": [
+      38.879194726507585,
+      -97.59250491857529
+     ]
+    },
+    {
+     "link": "/ks/wichita/1735-west-21st-street-north",
+     "name": "Wichita",
+     "address": [
+      "1735 West 21st Street North #200",
+      "Wichita, KS 67203 US"
+     ],
+     "coords": [
+      37.721717,
+      -97.3599756
+     ]
+    }
+   ]
+  },
+  "KY": {
+   "is_complete": true,
+   "locations": [
+    {
+     "link": "/ky/bardstown/1478-e-john-rowan-blvd",
+     "name": "Bardstown",
+     "address": [
+      "1478 E John Rowan Blvd",
+      "Bardstown, KY 40004 US"
+     ],
+     "coords": [
+      37.82247827072479,
+      -85.44576734304428
+     ]
+    },
+    {
+     "link": "/ky/brandenburg/751-bypass-rd",
+     "name": "Brandenburg",
+     "address": [
+      "751 Bypass Rd",
+      "Brandenburg, KY 40108 US"
+     ],
+     "coords": [
+      37.9803401,
+      -86.1670863
+     ]
+    },
+    {
+     "link": "/ky/campbellsville/398-campbellsville-byp",
+     "name": "Campbellsville",
+     "address": [
+      "398 Campbellsville Byp",
+      "Campbellsville, KY 42718 US"
+     ],
+     "coords": [
+      37.34473100648209,
+      -85.36687821149826
+     ]
+    },
+    {
+     "link": "/ky/central-city/629-s-2nd-st",
+     "name": "Central City",
+     "address": [
+      "629 S 2nd St",
+      "Central City, KY 42330 US"
+     ],
+     "coords": [
+      37.28625084638708,
+      -87.11625083983336
+     ]
+    },
+    {
+     "link": "/ky/corbin/325-w-cumberland-gap-pkwy",
+     "name": "Corbin",
+     "address": [
+      "325 W Cumberland Gap Pkwy",
+      "Corbin, KY 40701 US"
+     ],
+     "coords": [
+      36.975052533816836,
+      -84.10538703203207
+     ]
+    },
+    {
+     "link": "/ky/danville/308-skywatch-dr",
+     "name": "Danville",
+     "address": [
+      "308 Skywatch Dr",
+      "Danville, KY 40422 US"
+     ],
+     "coords": [
+      37.61722077990745,
+      -84.78770345449448
+     ]
+    },
+    {
+     "link": "/ky/flatwoods/1018-bellefonte-rd",
+     "name": "Flatwoods",
+     "address": [
+      "1018 Bellefonte Rd",
+      "Flatwoods, KY 41139 US"
+     ],
+     "coords": [
+      38.51450399587191,
+      -82.72156938612852
+     ]
+    },
+    {
+     "link": "/ky/grayson/200-state-highway-1947",
+     "name": "Grayson",
+     "address": [
+      "200 State Highway 1947",
+      "Grayson, KY 41143 US"
+     ],
+     "coords": [
+      38.34716150983765,
+      -82.94300317467679
+     ]
+    },
+    {
+     "link": "/ky/harlan/316-s-main-st",
+     "name": "Harlan",
+     "address": [
+      "316 S Main St",
+      "Harlan, KY 40831 US"
+     ],
+     "coords": [
+      36.84394780926477,
+      -83.32412130154808
+     ]
+    },
+    {
+     "link": "/ky/harrodsburg/1066-n-college-st",
+     "name": "Harrodsburg",
+     "address": [
+      "1066 N College St",
+      "Harrodsburg, KY 40330 US"
+     ],
+     "coords": [
+      37.78258903001545,
+      -84.84665036201471
+     ]
+    },
+    {
+     "link": "/ky/hazard/173-village-ln",
+     "name": "Hazard",
+     "address": [
+      "173 Village Ln",
+      "Hazard, KY 41701 US"
+     ],
+     "coords": [
+      37.28101904520617,
+      -83.22949022054672
+     ]
+    },
+    {
+     "link": "/ky/lawrenceburg/1014-bypass-s",
+     "name": "Lawrenceburg",
+     "address": [
+      "1014 Bypass S",
+      "Lawrenceburg, KY 40342 US"
+     ],
+     "coords": [
+      38.030204692979474,
+      -84.91246372461319
+     ]
+    },
+    {
+     "link": "/ky/lebanon/613-w-main-st",
+     "name": "Lebanon",
+     "address": [
+      "613 W Main St",
+      "Lebanon, KY 40033 US"
+     ],
+     "coords": [
+      37.564276174057525,
+      -85.26621758937836
+     ]
+    },
+    {
+     "link": "/ky/leitchfield/118-commerce-dr",
+     "name": "Leitchfield",
+     "address": [
+      "118 Commerce Dr",
+      "Leitchfield, KY 42754 US"
+     ],
+     "coords": [
+      37.4646763,
+      -86.2903132
+     ]
+    },
+    {
+     "link": "/ky/london/201-kings-way",
+     "name": "London",
+     "address": [
+      "201 Kings Way",
+      "London, KY 40741 US"
+     ],
+     "coords": [
+      37.112047363273625,
+      -84.0943443775177
+     ]
+    },
+    {
+     "link": "/ky/madisonville/445-hudson-park-dr",
+     "name": "Madisonville",
+     "address": [
+      "445 Hudson Park Dr",
+      "Madisonville, KY 42431 US"
+     ],
+     "coords": [
+      37.35033052348406,
+      -87.49317003324904
+     ]
+    },
+    {
+     "link": "/ky/manchester/415-state-highway-80",
+     "name": "Manchester",
+     "address": [
+      "415 State Highway 80",
+      "Manchester, KY 40962 US"
+     ],
+     "coords": [
+      37.133216765772076,
+      -83.76760572195053
+     ]
+    },
+    {
+     "link": "/ky/monticello/235-state-highway-90-bus",
+     "name": "Monticello",
+     "address": [
+      "235 State Highway 90 Bus",
+      "Monticello, KY 42633 US"
+     ],
+     "coords": [
+      36.860654307597535,
+      -84.83675136864576
+     ]
+    },
+    {
+     "link": "/ky/morehead/2323-flemingsburg-rd",
+     "name": "Morehead",
+     "address": [
+      "2323 Flemingsburg Rd",
+      "Morehead, KY 40351 US"
+     ],
+     "coords": [
+      38.20015016216841,
+      -83.47729689397056
+     ]
+    },
+    {
+     "link": "/ky/owensboro/3248-mount-moriah-ave",
+     "name": "Owensboro",
+     "address": [
+      "3248 Mount Moriah Ave Suite C",
+      "Owensboro, KY 42303 US"
+     ],
+     "coords": [
+      37.75414,
+      -87.059076
+     ]
+    },
+    {
+     "link": "/ky/radcliff/3060-s-dixie-blvd",
+     "name": "Radcliff",
+     "address": [
+      "3060 S Dixie Blvd",
+      "Radcliff, KY 40160 US"
+     ],
+     "coords": [
+      37.79715853217066,
+      -85.91529809315034
+     ]
+    },
+    {
+     "link": "/ky/russell-springs/2475-lakeway-dr",
+     "name": "Russell Springs",
+     "address": [
+      "2475 Lakeway Dr",
+      "Russell Springs, KY 42642 US"
+     ],
+     "coords": [
+      37.06823,
+      -85.07275
+     ]
+    },
+    {
+     "link": "/ky/scottsville/111-lois-moore-dr",
+     "name": "Scottsville",
+     "address": [
+      "111 Lois Moore Dr",
+      "Scottsville, KY 42164 US"
+     ],
+     "coords": [
+      36.75567157579758,
+      -86.21486127376556
+     ]
+    },
+    {
+     "link": "/ky/williamsburg/583-kentucky-92",
+     "name": "Williamsburg",
+     "address": [
+      "583 Kentucky 92",
+      "Williamsburg, KY 40769 US"
+     ],
+     "coords": [
+      36.72123088134227,
+      -84.16913509368891
+     ]
+    }
+   ]
+  },
+  "LA": {
+   "is_complete": true,
+   "locations": [
+    {
+     "link": "/la/alexandria/2710-macarthur-drive",
+     "name": "Alexandria",
+     "address": [
+      "2710 MacArthur Drive Suite D",
+      "Alexandria, LA 71301 US"
+     ],
+     "coords": [
+      31.268331,
+      -92.4597308
+     ]
+    },
+    {
+     "link": "/la/bastrop/2301-e-madison-ave",
+     "name": "Bastrop",
+     "address": [
+      "2301 E Madison Ave",
+      "Bastrop, LA 71220 US"
+     ],
+     "coords": [
+      32.77661845166936,
+      -91.8834974654419
+     ]
+    },
+    {
+     "link": "/la/calhoun/536-highway-151-n",
+     "name": "Calhoun",
+     "address": [
+      "536 Highway 151 N",
+      "Calhoun, LA 71225 US"
+     ],
+     "coords": [
+      32.5204438,
+      -92.3643605
+     ]
+    },
+    {
+     "link": "/la/fort-polk/7323-utah-ave",
+     "name": "Fort Polk",
+     "address": [
+      "7323 Utah Ave",
+      "Fort Polk, LA 71459 US"
+     ],
+     "coords": [
+      31.049396503828874,
+      -93.21830280501672
+     ]
+    },
+    {
+     "link": "/la/la-place/4325-main-st",
+     "name": "La Place",
+     "address": [
+      "4325 Main St",
+      "La Place, LA 70068 US"
+     ],
+     "coords": [
+      30.09000200000002,
+      -90.43884281349187
+     ]
+    },
+    {
+     "link": "/la/minden/12155-highway-80-ste-2",
+     "name": "Minden",
+     "address": [
+      "12155 Highway 80 Ste 2",
+      "Minden, LA 71055 US"
+     ],
+     "coords": [
+      32.593499179868815,
+      -93.3384570479393
+     ]
+    },
+    {
+     "link": "/la/natchitoches/5306-university-pkwy",
+     "name": "Natchitoches",
+     "address": [
+      "5306 University Pkwy",
+      "Natchitoches, LA 71457 US"
+     ],
+     "coords": [
+      31.72876038199288,
+      -93.1585351415788
+     ]
+    },
+    {
+     "link": "/la/pineville/104-mary-hill-rd",
+     "name": "Pineville",
+     "address": [
+      "104 Mary Hill Rd",
+      "Pineville, LA 71360 US"
+     ],
+     "coords": [
+      31.365027150267508,
+      -92.41255051411827
+     ]
+    },
+    {
+     "link": "/la/ruston/501-n-service-rd-e",
+     "name": "Ruston",
+     "address": [
+      "501 N Service Rd E",
+      "Ruston, LA 71270 US"
+     ],
+     "coords": [
+      32.5409265,
+      -92.6319585
+     ]
+    },
+    {
+     "link": "/la/scott/1640-saint-mary-st",
+     "name": "Scott",
+     "address": [
+      "1640 Saint Mary St",
+      "Scott, LA 70583 US"
+     ],
+     "coords": [
+      30.24311384934127,
+      -92.10433080496841
+     ]
+    },
+    {
+     "link": "/la/sunset/1828-i-49-frontage-rd",
+     "name": "Sunset",
+     "address": [
+      "1828 I-49 Frontage Rd",
+      "Sunset, LA 70584 US"
+     ],
+     "coords": [
+      30.4181079,
+      -92.0528182
+     ]
+    },
+    {
+     "link": "/la/thibodaux/103-e-bayou-rd",
+     "name": "Thibodaux",
+     "address": [
+      "103 E Bayou Rd",
+      "Thibodaux, LA 70301 US"
+     ],
+     "coords": [
+      29.800058,
+      -90.8215031
+     ]
+    }
+   ]
+  },
+  "MD": {
+   "is_complete": true,
+   "locations": [
+    {
+     "link": "/md/lanham/10595-greenbelt-rd",
+     "name": "Lanham",
+     "address": [
+      "10595 Greenbelt Rd",
+      "Lanham, MD 20706 US"
+     ],
+     "coords": [
+      38.9893156,
+      -76.8224549
+     ]
+    }
+   ]
+  },
+  "MO": {
+   "is_complete": true,
+   "locations": [
+    {
+     "link": "/mo/bonne-terre/10-northwood-st",
+     "name": "Bonne Terre",
+     "address": [
+      "10 Northwood St",
+      "Bonne Terre, MO 63628 US"
+     ],
+     "coords": [
+      37.924019793153924,
+      -90.5367824435234
+     ]
+    },
+    {
+     "link": "/mo/cape-girardeau/511-n-kingshighway-st",
+     "name": "Cape Girardeau",
+     "address": [
+      "511 N Kingshighway St",
+      "Cape Girardeau, MO 63701 US"
+     ],
+     "coords": [
+      37.31347695269223,
+      -89.55306351184845
+     ]
+    },
+    {
+     "link": "/mo/charleston/2460-us-60",
+     "name": "Charleston",
+     "address": [
+      "2460 U.S. 60",
+      "Charleston, MO 63834 US"
+     ],
+     "coords": [
+      36.922196944094885,
+      -89.31377767921276
+     ]
+    },
+    {
+     "link": "/mo/cuba/5887-missouri-19",
+     "name": "Cuba",
+     "address": [
+      "5887 Missouri 19",
+      "Cuba, MO 65453 US"
+     ],
+     "coords": [
+      38.075920646977416,
+      -91.4079612493515
+     ]
+    },
+    {
+     "link": "/mo/de-soto/13012-missouri-21",
+     "name": "De Soto",
+     "address": [
+      "13012 Missouri 21",
+      "De Soto, MO 63020 US"
+     ],
+     "coords": [
+      38.14064499126775,
+      -90.57720869779587
+     ]
+    },
+    {
+     "link": "/mo/dexter/1019-w-business-us-60",
+     "name": "Dexter",
+     "address": [
+      "1019 W Business U.S. 60",
+      "Dexter, MO 63841 US"
+     ],
+     "coords": [
+      36.803293,
+      -89.974442
+     ]
+    },
+    {
+     "link": "/mo/farmington/305-e-karsch-blvd",
+     "name": "Farmington",
+     "address": [
+      "305 E Karsch Blvd",
+      "Farmington, MO 63640 US"
+     ],
+     "coords": [
+      37.787324646337886,
+      -90.41740268468857
+     ]
+    },
+    {
+     "link": "/mo/fredericktown/1261-mo-72",
+     "name": "Fredericktown",
+     "address": [
+      "1261 MO-72",
+      "Fredericktown, MO 63645 US"
+     ],
+     "coords": [
+      37.56092110262931,
+      -90.31872421503067
+     ]
+    },
+    {
+     "link": "/mo/leadington/8-chat-rd",
+     "name": "Leadington",
+     "address": [
+      "8 Chat Rd",
+      "Leadington, MO 63601 US"
+     ],
+     "coords": [
+      37.83820594050161,
+      -90.48542618751526
+     ]
+    },
+    {
+     "link": "/mo/poplar-bluff/2914-n-westwood-blvd",
+     "name": "Poplar Bluff",
+     "address": [
+      "2914 N Westwood Blvd",
+      "Poplar Bluff, MO 63901 US"
+     ],
+     "coords": [
+      36.7899829703347,
+      -90.43236941099167
+     ]
+    },
+    {
+     "link": "/mo/potosi/10022-franklin-rd",
+     "name": "Potosi",
+     "address": [
+      "10022 Franklin Rd",
+      "Potosi, MO 63664 US"
+     ],
+     "coords": [
+      37.91777263561945,
+      -90.77574849128723
+     ]
+    },
+    {
+     "link": "/mo/ste-genevieve/21962-missouri-32",
+     "name": "Ste Genevieve",
+     "address": [
+      "21962 Missouri 32",
+      "Ste Genevieve, MO 63670 US"
+     ],
+     "coords": [
+      37.96716093577735,
+      -90.05702376365662
+     ]
+    }
+   ]
+  },
+  "MS": {
+   "is_complete": true,
+   "locations": [
+    {
+     "link": "/ms/amory/1511-us-278",
+     "name": "Amory",
+     "address": [
+      "1511 U.S. 278",
+      "Amory, MS 38821 US"
+     ],
+     "coords": [
+      33.96847354944967,
+      -88.45935255289078
+     ]
+    },
+    {
+     "link": "/ms/batesville/147-lakewood-dr",
+     "name": "Batesville",
+     "address": [
+      "147 Lakewood Dr",
+      "Batesville, MS 38606 US"
+     ],
+     "coords": [
+      34.310633321990615,
+      -89.92524147033691
+     ]
+    },
+    {
+     "link": "/ms/booneville/1203-n-2nd-st",
+     "name": "Booneville",
+     "address": [
+      "1203 N 2nd St",
+      "Booneville, MS 38829 US"
+     ],
+     "coords": [
+      34.67891429260265,
+      -88.56087952852249
+     ]
+    },
+    {
+     "link": "/ms/carthage/701-hwy-16-west",
+     "name": "Carthage",
+     "address": [
+      "701 Hwy 16 West",
+      "Carthage, MS 39051 US"
+     ],
+     "coords": [
+      32.728498,
+      -89.545112
+     ]
+    },
+    {
+     "link": "/ms/collins/8-grandview-dr",
+     "name": "Collins",
+     "address": [
+      "8 Grandview Dr",
+      "Collins, MS 39428 US"
+     ],
+     "coords": [
+      31.629683337725936,
+      -89.55524146556854
+     ]
+    },
+    {
+     "link": "/ms/corinth/2900-us-72",
+     "name": "Corinth",
+     "address": [
+      "2900 US-72",
+      "Corinth, MS 38834 US"
+     ],
+     "coords": [
+      34.931297522266725,
+      -88.55338013686378
+     ]
+    },
+    {
+     "link": "/ms/fulton/1603-s-adams-st",
+     "name": "Fulton",
+     "address": [
+      "1603 S Adams St",
+      "Fulton, MS 38843 US"
+     ],
+     "coords": [
+      34.24733113137331,
+      -88.4045995423279
+     ]
+    },
+    {
+     "link": "/ms/greenville/2426-us-82",
+     "name": "Greenville",
+     "address": [
+      "2426 U.S. 82",
+      "Greenville, MS 38703 US"
+     ],
+     "coords": [
+      33.40029364903378,
+      -91.01863458752632
+     ]
+    },
+    {
+     "link": "/ms/holly-springs/660-mississippi-7",
+     "name": "Holly Springs",
+     "address": [
+      "660 Mississippi 7",
+      "Holly Springs, MS 38635 US"
+     ],
+     "coords": [
+      34.75268932454812,
+      -89.45337116718292
+     ]
+    },
+    {
+     "link": "/ms/laurel/1304-chantilly-st",
+     "name": "Laurel",
+     "address": [
+      "1304 Chantilly St",
+      "Laurel, MS 39440 US"
+     ],
+     "coords": [
+      31.6971400202654,
+      -89.11467522382736
+     ]
+    },
+    {
+     "link": "/ms/magee/1664-simpson-highway-49",
+     "name": "Magee",
+     "address": [
+      "1664 Simpson Highway 49",
+      "Magee, MS 39111 US"
+     ],
+     "coords": [
+      31.870840536345042,
+      -89.74701404571533
+     ]
+    },
+    {
+     "link": "/ms/new-albany/237-mississippi-30",
+     "name": "New Albany",
+     "address": [
+      "237 Mississippi 30",
+      "New Albany, MS 38652 US"
+     ],
+     "coords": [
+      34.496954504442364,
+      -89.03360545635223
+     ]
+    },
+    {
+     "link": "/ms/oxford/1925-jackson-ave-w",
+     "name": "Oxford",
+     "address": [
+      "1925 Jackson Ave W",
+      "Oxford, MS 38655 US"
+     ],
+     "coords": [
+      34.364318458221625,
+      -89.55706134438515
+     ]
+    },
+    {
+     "link": "/ms/philadelphia/1028-w-beacon-st",
+     "name": "Philadelphia",
+     "address": [
+      "1028 W Beacon St",
+      "Philadelphia, MS 39350 US"
+     ],
+     "coords": [
+      32.76820289411983,
+      -89.13237079680357
+     ]
+    },
+    {
+     "link": "/ms/pontotoc/333-mississippi-15",
+     "name": "Pontotoc",
+     "address": [
+      "333 Mississippi 15",
+      "Pontotoc, MS 38863 US"
+     ],
+     "coords": [
+      34.26607691125127,
+      -89.02025878429413
+     ]
+    },
+    {
+     "link": "/ms/ripley/924-city-ave-s",
+     "name": "Ripley",
+     "address": [
+      "924 City Ave S",
+      "Ripley, MS 38663 US"
+     ],
+     "coords": [
+      34.71948525668282,
+      -88.95538687705994
+     ]
+    },
+    {
+     "link": "/ms/senatobia/500-e-main-st",
+     "name": "Senatobia",
+     "address": [
+      "500 E Main St",
+      "Senatobia, MS 38668 US"
+     ],
+     "coords": [
+      34.62033382768697,
+      -89.95279312133789
+     ]
+    },
+    {
+     "link": "/ms/tupelo/107-stone-creek-blvd",
+     "name": "Tupelo",
+     "address": [
+      "107 Stone Creek Blvd",
+      "Tupelo, MS 38804 US"
+     ],
+     "coords": [
+      34.28775316095141,
+      -88.67503709115226
+     ]
+    },
+    {
+     "link": "/ms/tupelo/3760-s-eason-blvd",
+     "name": "Tupelo",
+     "address": [
+      "3760 S Eason Blvd",
+      "Tupelo, MS 38804 US"
+     ],
+     "coords": [
+      34.2365657371875,
+      -88.70468616485596
+     ]
+    }
+   ]
+  },
+  "NC": {
+   "is_complete": true,
+   "locations": [
+    {
+     "link": "/nc/andrews/55-covar-ave",
+     "name": "Andrews",
+     "address": [
+      "55 Covar Ave",
+      "Andrews, NC 28901 US"
+     ],
+     "coords": [
+      35.2056582,
+      -83.827481
+     ]
+    },
+    {
+     "link": "/nc/asheboro/731-west-dixie-drive",
+     "name": "Asheboro",
+     "address": [
+      "731 West Dixie Drive",
+      "Asheboro, NC 27205 US"
+     ],
+     "coords": [
+      35.686515899254715,
+      -79.82475578784943
+     ]
+    },
+    {
+     "link": "/nc/asheville/400-hendersonville-rd",
+     "name": "Asheville",
+     "address": [
+      "400 Hendersonville Rd.",
+      "Asheville, NC 28803 US"
+     ],
+     "coords": [
+      35.55640310545786,
+      -82.53767877817154
+     ]
+    },
+    {
+     "link": "/nc/dillsboro/609-haywood-road",
+     "name": "Dillsboro",
+     "address": [
+      "609 Haywood Road",
+      "Dillsboro, NC 28725 US"
+     ],
+     "coords": [
+      35.368667907409204,
+      -83.25293809175491
+     ]
+    },
+    {
+     "link": "/nc/franklin/914-georgia-road",
+     "name": "Franklin",
+     "address": [
+      "914 Georgia Road",
+      "Franklin, NC 28734 US"
+     ],
+     "coords": [
+      35.162544871110605,
+      -83.39120328426361
+     ]
+    },
+    {
+     "link": "/nc/goldsboro/2600-us-117",
+     "name": "Goldsboro",
+     "address": [
+      "2600 U.S. 117",
+      "Goldsboro, NC 27530 US"
+     ],
+     "coords": [
+      35.33381841262758,
+      -78.0348989367485
+     ]
+    },
+    {
+     "link": "/nc/hayesville/180-old-highway-64-east",
+     "name": "Hayesville",
+     "address": [
+      "180 Old Highway 64 East",
+      "Hayesville, NC 28904 US"
+     ],
+     "coords": [
+      35.0342149,
+      -83.8173185
+     ]
+    },
+    {
+     "link": "/nc/laurinburg/1713-us-401-s",
+     "name": "Laurinburg",
+     "address": [
+      "1713 US-401 S",
+      "Laurinburg, NC 28352 US"
+     ],
+     "coords": [
+      34.75253844842815,
+      -79.48107295114824
+     ]
+    },
+    {
+     "link": "/nc/lumberton/2806-west-5th-street",
+     "name": "Lumberton",
+     "address": [
+      "2806 West 5th Street",
+      "Lumberton, NC 28358 US"
+     ],
+     "coords": [
+      34.62347683206185,
+      -79.04764994049401
+     ]
+    },
+    {
+     "link": "/nc/st-pauls/940-w-broad-st",
+     "name": "St Pauls",
+     "address": [
+      "940 W Broad St",
+      "St Pauls, NC 28384 US"
+     ],
+     "coords": [
+      34.81084,
+      -78.984734
+     ]
+    },
+    {
+     "link": "/nc/waynesville/49-hyatt-creek-rd",
+     "name": "Waynesville",
+     "address": [
+      "49 Hyatt Creek Rd",
+      "Waynesville, NC 28786 US"
+     ],
+     "coords": [
+      35.46413262114318,
+      -83.00986289978027
+     ]
+    }
+   ]
+  },
+  "ND": {
+   "is_complete": true,
+   "locations": [
+    {
+     "link": "/nd/fargo/3150-39th-st-s",
+     "name": "Fargo",
+     "address": [
+      "3150 39th St S",
+      "Fargo, ND 58104 US"
+     ],
+     "coords": [
+      46.8337107,
+      -96.8449563
+     ]
+    }
+   ]
+  },
+  "NE": {
+   "is_complete": true,
+   "locations": [
+    {
+     "link": "/ne/york/5018-s-lincoln-ave",
+     "name": "York",
+     "address": [
+      "5018 S Lincoln Ave",
+      "York, NE 68467 US"
+     ],
+     "coords": [
+      40.81376,
+      -97.598547
+     ]
+    }
+   ]
+  },
+  "NJ": {
+   "is_complete": true,
+   "locations": [
+    {
+     "link": "/nj/garfield/17-outwater-lane",
+     "name": "Garfield",
+     "address": [
+      "17 Outwater Lane",
+      "Garfield, NJ 07026 US"
+     ],
+     "coords": [
+      40.88076326282584,
+      -74.11868333816528
+     ]
+    }
+   ]
+  },
+  "OH": {
+   "is_complete": true,
+   "locations": [
+    {
+     "link": "/oh/seville/5000-park-ave-w",
+     "name": "Seville",
+     "address": [
+      "5000 Park Ave W",
+      "Seville, OH 44273 US"
+     ],
+     "coords": [
+      41.0339494,
+      -81.8692591
+     ]
+    }
+   ]
+  },
+  "OK": {
+   "is_complete": true,
+   "locations": [
+    {
+     "link": "/ok/ardmore/2450-cooper-dr",
+     "name": "Ardmore",
+     "address": [
+      "2450 Cooper Dr",
+      "Ardmore, OK 73401 US"
+     ],
+     "coords": [
+      34.2009662,
+      -97.1673663
+     ]
+    },
+    {
+     "link": "/ok/edmond/4801-ne-122nd-st",
+     "name": "Edmond",
+     "address": [
+      "4801 NE 122nd St",
+      "Edmond, OK 73013 US"
+     ],
+     "coords": [
+      35.5955079,
+      -97.4367443
+     ]
+    },
+    {
+     "link": "/ok/elk-city/103-regional-dr",
+     "name": "Elk City",
+     "address": [
+      "103 Regional Dr",
+      "Elk City, OK 73644 US"
+     ],
+     "coords": [
+      35.4084213512958,
+      -99.3796890131398
+     ]
+    },
+    {
+     "link": "/ok/oklahoma-city/701-s-morgan-rd",
+     "name": "Oklahoma City",
+     "address": [
+      "701 S Morgan Rd",
+      "Oklahoma City, OK 73128 US"
+     ],
+     "coords": [
+      35.4591069,
+      -97.690347
+     ]
+    }
+   ]
+  },
+  "PA": {
+   "is_complete": true,
+   "locations": [
+    {
+     "link": "/pa/frystown/2210-camp-swatara-rd",
+     "name": "Frystown",
+     "address": [
+      "2210 Camp Swatara Rd",
+      "Frystown, PA 17067 US"
+     ],
+     "coords": [
+      40.463409199426934,
+      -76.33977234363556
+     ]
+    },
+    {
+     "link": "/pa/mt-morris/106-gas-company-rd",
+     "name": "Mt Morris",
+     "address": [
+      "106 Gas Company Rd",
+      "Mt Morris, PA 15349 US"
+     ],
+     "coords": [
+      39.733903641949226,
+      -80.05646927193084
+     ]
+    }
+   ]
+  },
+  "SC": {
+   "is_complete": true,
+   "locations": [
+    {
+     "link": "/sc/aiken/3602-richland-avenue",
+     "name": "Aiken",
+     "address": [
+      "3602 Richland Avenue",
+      "Aiken, SC 29801 US"
+     ],
+     "coords": [
+      33.5640245,
+      -81.7675992
+     ]
+    },
+    {
+     "link": "/sc/barnwell/10621-dunbarton-blvd",
+     "name": "Barnwell",
+     "address": [
+      "10621 Dunbarton Blvd",
+      "Barnwell, SC 29812 US"
+     ],
+     "coords": [
+      33.24249671161246,
+      -81.37818396091461
+     ]
+    },
+    {
+     "link": "/sc/batesburg/1694-old-96-indian-trl",
+     "name": "Batesburg",
+     "address": [
+      "1694 Old 96 Indian Trl",
+      "Batesburg, SC 29006 US"
+     ],
+     "coords": [
+      33.74912297269545,
+      -81.52531117200851
+     ]
+    },
+    {
+     "link": "/sc/beaufort/92-sea-island-pkwy",
+     "name": "Beaufort",
+     "address": [
+      "92 Sea Island Pkwy",
+      "Beaufort, SC 29907 US"
+     ],
+     "coords": [
+      32.41686707549387,
+      -80.65739929676056
+     ]
+    },
+    {
+     "link": "/sc/bennettsville/1141-cottingham-blvd-n",
+     "name": "Bennettsville",
+     "address": [
+      "1141 Cottingham Blvd N",
+      "Bennettsville, SC 29512 US"
+     ],
+     "coords": [
+      34.636475222679806,
+      -79.70034018158918
+     ]
+    },
+    {
+     "link": "/sc/bishopville/1343-sumter-hwy",
+     "name": "Bishopville",
+     "address": [
+      "1343 Sumter Hwy",
+      "Bishopville, SC 29010 US"
+     ],
+     "coords": [
+      34.19138880007136,
+      -80.28182566165924
+     ]
+    },
+    {
+     "link": "/sc/camden/1029-w-dekalb-street",
+     "name": "Camden",
+     "address": [
+      "1029 W. Dekalb Street",
+      "Camden, SC 29020 US"
+     ],
+     "coords": [
+      34.2460556,
+      -80.6200714
+     ]
+    },
+    {
+     "link": "/sc/charleston/933-folly-road",
+     "name": "Charleston",
+     "address": [
+      "933 Folly Road",
+      "Charleston, SC 29412 US"
+     ],
+     "coords": [
+      32.73240948320303,
+      -79.96964067220688
+     ]
+    },
+    {
+     "link": "/sc/cheraw/866-us-1",
+     "name": "Cheraw",
+     "address": [
+      "866 U.S. 1",
+      "Cheraw, SC 29520 US"
+     ],
+     "coords": [
+      34.67869813137431,
+      -79.90125507116318
+     ]
+    },
+    {
+     "link": "/sc/dillon/799-radford-blvd",
+     "name": "Dillon",
+     "address": [
+      "799 Radford Blvd",
+      "Dillon, SC 29536 US"
+     ],
+     "coords": [
+      34.43869476998165,
+      -79.37064170837402
+     ]
+    },
+    {
+     "link": "/sc/florence/1904-w-evans-st",
+     "name": "Florence",
+     "address": [
+      "1904 W Evans St",
+      "Florence, SC 29501 US"
+     ],
+     "coords": [
+      34.19491634725177,
+      -79.80297356843954
+     ]
+    },
+    {
+     "link": "/sc/florence/400-pamplico-hwy",
+     "name": "Florence",
+     "address": [
+      "400 Pamplico Hwy",
+      "Florence, SC 29505 US"
+     ],
+     "coords": [
+      34.16298778070166,
+      -79.75949227809906
+     ]
+    },
+    {
+     "link": "/sc/graniteville/651-bettis-academy-rd",
+     "name": "Graniteville",
+     "address": [
+      "651 Bettis Academy Rd",
+      "Graniteville, SC 29829 US"
+     ],
+     "coords": [
+      33.6091235,
+      -81.8453419
+     ]
+    },
+    {
+     "link": "/sc/greenwood/2531-us-25-business",
+     "name": "Greenwood",
+     "address": [
+      "2531 U.S. 25 Business",
+      "Greenwood, SC 29646 US"
+     ],
+     "coords": [
+      34.15538496451202,
+      -82.13903546333313
+     ]
+    },
+    {
+     "link": "/sc/greenwood/nw-556-sc-72-business",
+     "name": "Greenwood",
+     "address": [
+      "NW 556 SC-72 Business",
+      "Greenwood, SC 29649 US"
+     ],
+     "coords": [
+      34.204148415842894,
+      -82.19657798528488
+     ]
+    },
+    {
+     "link": "/sc/hampton/801-elm-st-west",
+     "name": "Hampton",
+     "address": [
+      "801 Elm St. West",
+      "Hampton, SC 29924 US"
+     ],
+     "coords": [
+      32.8728765580723,
+      -81.11679196357733
+     ]
+    },
+    {
+     "link": "/sc/hartsville/904-south-5th-street",
+     "name": "Hartsville",
+     "address": [
+      "904 South 5th Street",
+      "Hartsville, SC 29550 US"
+     ],
+     "coords": [
+      34.361968271567,
+      -80.06786957085524
+     ]
+    },
+    {
+     "link": "/sc/kershaw/7797-kershaw-camden-hwy",
+     "name": "Kershaw",
+     "address": [
+      "7797 Kershaw Camden Hwy",
+      "Kershaw, SC 29067 US"
+     ],
+     "coords": [
+      34.5558408,
+      -80.5848836
+     ]
+    },
+    {
+     "link": "/sc/lake-city/218-north-ron-mcnair-blvd",
+     "name": "Lake City",
+     "address": [
+      "218 North Ron McNair Blvd",
+      "Lake City, SC 29560 US"
+     ],
+     "coords": [
+      33.87916959067272,
+      -79.75981682538986
+     ]
+    },
+    {
+     "link": "/sc/lancaster/w-1145-sc-9-bypass",
+     "name": "Lancaster",
+     "address": [
+      "W 1145 SC-9 Bypass",
+      "Lancaster, SC 29720 US"
+     ],
+     "coords": [
+      34.7327426,
+      -80.7991799
+     ]
+    },
+    {
+     "link": "/sc/manning/2867-paxville-highway",
+     "name": "Manning",
+     "address": [
+      "2867 Paxville Highway",
+      "Manning, SC 29102 US"
+     ],
+     "coords": [
+      33.702122058251845,
+      -80.24050891399389
+     ]
+    },
+    {
+     "link": "/sc/marion/2424-e-highway-76",
+     "name": "Marion",
+     "address": [
+      "2424 E Highway 76",
+      "Marion, SC 29571 US"
+     ],
+     "coords": [
+      34.18370311720295,
+      -79.36880707740784
+     ]
+    },
+    {
+     "link": "/sc/mcbee/206-e-pine-ave",
+     "name": "McBee",
+     "address": [
+      "206 E Pine Ave",
+      "McBee, SC 29101 US"
+     ],
+     "coords": [
+      34.468384762723694,
+      -80.25393605232239
+     ]
+    },
+    {
+     "link": "/sc/mccormick/308-south-mine-street",
+     "name": "McCormick",
+     "address": [
+      "308 South Mine Street",
+      "McCormick, SC 29835 US"
+     ],
+     "coords": [
+      33.910124510617834,
+      -82.29326388754089
+     ]
+    },
+    {
+     "link": "/sc/moncks-corner/404-north-highway-52",
+     "name": "Moncks Corner",
+     "address": [
+      "404 North Highway 52",
+      "Moncks Corner, SC 29461 US"
+     ],
+     "coords": [
+      33.202173309772604,
+      -79.9892757833004
+     ]
+    },
+    {
+     "link": "/sc/santee/9047-old-number-six-hwy",
+     "name": "Santee",
+     "address": [
+      "9047 Old Number Six Hwy",
+      "Santee, SC 29142 US"
+     ],
+     "coords": [
+      33.484516078165974,
+      -80.4684698581695
+     ]
+    },
+    {
+     "link": "/sc/seneca/509-a-hwy-123-bypass",
+     "name": "Seneca",
+     "address": [
+      "509 A Hwy 123 Bypass",
+      "Seneca, SC 29678 US"
+     ],
+     "coords": [
+      34.6968223,
+      -82.9527142
+     ]
+    },
+    {
+     "link": "/sc/walterboro/1593-bells-highway",
+     "name": "Walterboro",
+     "address": [
+      "1593 Bells Highway",
+      "Walterboro, SC 29488 US"
+     ],
+     "coords": [
+      32.927909313014965,
+      -80.68774312734604
+     ]
+    },
+    {
+     "link": "/sc/york/808-e-liberty-street",
+     "name": "York",
+     "address": [
+      "808 E Liberty Street",
+      "York, SC 29745 US"
+     ],
+     "coords": [
+      34.98541195266366,
+      -81.22128516137991
+     ]
+    }
+   ]
+  },
+  "TN": {
+   "is_complete": true,
+   "locations": [
+    {
+     "link": "/tn/ardmore/24315-main-st",
+     "name": "Ardmore",
+     "address": [
+      "24315 Main St",
+      "Ardmore, TN 38449 US"
+     ],
+     "coords": [
+      35.0109064,
+      -86.8766762
+     ]
+    },
+    {
+     "link": "/tn/baxter/105-fast-ln",
+     "name": "Baxter",
+     "address": [
+      "105 Fast Ln",
+      "Baxter, TN 38544 US"
+     ],
+     "coords": [
+      36.14075998062764,
+      -85.63064664602285
+     ]
+    },
+    {
+     "link": "/tn/chattanooga/5611-brainerd-rd",
+     "name": "Chattanooga",
+     "address": [
+      "5611 Brainerd Rd",
+      "Chattanooga, TN 37411 US"
+     ],
+     "coords": [
+      35.0110736,
+      -85.2172246
+     ]
+    },
+    {
+     "link": "/tn/clarksville/590-fire-station-road",
+     "name": "Clarksville",
+     "address": [
+      "590 Fire Station Road Suite H",
+      "Clarksville, TN 37043 US"
+     ],
+     "coords": [
+      36.5120585,
+      -87.225667
+     ]
+    },
+    {
+     "link": "/tn/cleveland/1051-king-st",
+     "name": "Cleveland",
+     "address": [
+      "1051 King St.",
+      "Cleveland, TN 37311 US"
+     ],
+     "coords": [
+      35.132424,
+      -84.8727026
+     ]
+    },
+    {
+     "link": "/tn/dayton/4601-rhea-county-hwy",
+     "name": "Dayton",
+     "address": [
+      "4601 Rhea County Hwy",
+      "Dayton, TN 37321 US"
+     ],
+     "coords": [
+      35.47740743611222,
+      -85.02899333538039
+     ]
+    },
+    {
+     "link": "/tn/dyersburg/1120-us-51-byp",
+     "name": "Dyersburg",
+     "address": [
+      "1120 US-51 BYP",
+      "Dyersburg, TN 38024 US"
+     ],
+     "coords": [
+      36.05696299722943,
+      -89.40109223127365
+     ]
+    },
+    {
+     "link": "/tn/lewisburg/1037-nashville-hwy",
+     "name": "Lewisburg",
+     "address": [
+      "1037 Nashville Hwy",
+      "Lewisburg, TN 37091 US"
+     ],
+     "coords": [
+      35.46158096483642,
+      -86.78115874528885
+     ]
+    },
+    {
+     "link": "/tn/livingston/1660-w-main-st",
+     "name": "Livingston",
+     "address": [
+      "1660 W Main St",
+      "Livingston, TN 38570 US"
+     ],
+     "coords": [
+      36.36308802401848,
+      -85.3420925923092
+     ]
+    },
+    {
+     "link": "/tn/martin/201-hawks-rd",
+     "name": "Martin",
+     "address": [
+      "201 Hawks Rd",
+      "Martin, TN 38237 US"
+     ],
+     "coords": [
+      36.342051976500564,
+      -88.87287689283767
+     ]
+    },
+    {
+     "link": "/tn/maryville/2426-e-lamar-alexander-pkwy",
+     "name": "Maryville",
+     "address": [
+      "2426 E Lamar Alexander Pkwy",
+      "Maryville, TN 37804 US"
+     ],
+     "coords": [
+      35.75536641472826,
+      -83.93252104223166
+     ]
+    },
+    {
+     "link": "/tn/mcminnville/937-smithville-hwy",
+     "name": "McMinnville",
+     "address": [
+      "937 Smithville Hwy",
+      "McMinnville, TN 37110 US"
+     ],
+     "coords": [
+      35.6977755,
+      -85.7805001
+     ]
+    },
+    {
+     "link": "/tn/milan/3030-s-1st-st",
+     "name": "Milan",
+     "address": [
+      "3030 S 1st St",
+      "Milan, TN 38358 US"
+     ],
+     "coords": [
+      35.915808323211955,
+      -88.75335991084967
+     ]
+    },
+    {
+     "link": "/tn/newport/1130-w-highway-25-70",
+     "name": "Newport",
+     "address": [
+      "1130 W Highway 25 70",
+      "Newport, TN 37821 US"
+     ],
+     "coords": [
+      35.9723646997814,
+      -83.24805110692978
+     ]
+    },
+    {
+     "link": "/tn/paris/1502-east-wood-street",
+     "name": "Paris",
+     "address": [
+      "1502 East Wood Street",
+      "Paris, TN 38242 US"
+     ],
+     "coords": [
+      36.31084791867762,
+      -88.2940936088562
+     ]
+    },
+    {
+     "link": "/tn/savannah/104-bridge-ave",
+     "name": "Savannah",
+     "address": [
+      "104 Bridge Ave",
+      "Savannah, TN 38372 US"
+     ],
+     "coords": [
+      35.22494888824332,
+      -88.2553169131279
+     ]
+    },
+    {
+     "link": "/tn/shelbyville/1209-n-main-street",
+     "name": "Shelbyville",
+     "address": [
+      "1209 N. Main Street",
+      "Shelbyville, TN 37160 US"
+     ],
+     "coords": [
+      35.5013714696386,
+      -86.45793914794922
+     ]
+    },
+    {
+     "link": "/tn/soddy-daisy/9401-reco-dr",
+     "name": "Soddy Daisy",
+     "address": [
+      "9401 Reco Dr",
+      "Soddy Daisy, TN 37379 US"
+     ],
+     "coords": [
+      35.237029684635495,
+      -85.19744679034147
+     ]
+    },
+    {
+     "link": "/tn/sparta/810-walker-cove-rd",
+     "name": "Sparta",
+     "address": [
+      "810 Walker Cove Rd",
+      "Sparta, TN 38583 US"
+     ],
+     "coords": [
+      35.959280889778825,
+      -85.48489017322936
+     ]
+    },
+    {
+     "link": "/tn/sweetwater/259-new-highway-68",
+     "name": "Sweetwater",
+     "address": [
+      "259 New Highway 68",
+      "Sweetwater, TN 37874 US"
+     ],
+     "coords": [
+      35.5986072,
+      -84.5069822
+     ]
+    }
+   ]
+  },
+  "TX": {
+   "is_complete": true,
+   "locations": [
+    {
+     "link": "/tx/anna/714-s-central-expy",
+     "name": "Anna",
+     "address": [
+      "714 S Central Expy",
+      "Anna, TX 75409 US"
+     ],
+     "coords": [
+      33.3450401,
+      -96.5888473
+     ]
+    },
+    {
+     "link": "/tx/caddo-mills/2819-interstate-30-w",
+     "name": "Caddo Mills",
+     "address": [
+      "2819 Interstate 30 W",
+      "Caddo Mills, TX 75135 US"
+     ],
+     "coords": [
+      33.04242988207604,
+      -96.17910957850654
+     ]
+    },
+    {
+     "link": "/tx/eagle-pass/2352-el-indio-hwy",
+     "name": "Eagle Pass",
+     "address": [
+      "2352 El Indio Hwy",
+      "Eagle Pass, TX 78852 US"
+     ],
+     "coords": [
+      28.692172321022884,
+      -100.4816047847271
+     ]
+    },
+    {
+     "link": "/tx/forney/426-fm-548-100",
+     "name": "Forney",
+     "address": [
+      "426 FM 548 #100",
+      "Forney, TX 75126 US"
+     ],
+     "coords": [
+      32.745393,
+      -96.4494999
+     ]
+    },
+    {
+     "link": "/tx/georgetown/4610-n-interstate-35",
+     "name": "Georgetown",
+     "address": [
+      "4610 N Interstate 35",
+      "Georgetown, TX 78626 US"
+     ],
+     "coords": [
+      30.710272396920455,
+      -97.64729287596053
+     ]
+    },
+    {
+     "link": "/tx/gun-barrel-city/100-gun-barrel-ln",
+     "name": "Gun Barrel City",
+     "address": [
+      "100 Gun Barrel Ln",
+      "Gun Barrel City, TX 75156 US"
+     ],
+     "coords": [
+      32.330526549581904,
+      -96.1120730638504
+     ]
+    },
+    {
+     "link": "/tx/huffman/24110-fm-2100",
+     "name": "Huffman",
+     "address": [
+      "24110 FM 2100 Suite 100",
+      "Huffman, TX 77336 US"
+     ],
+     "coords": [
+      30.0239575,
+      -95.0893273
+     ]
+    },
+    {
+     "link": "/tx/jefferson/549-s-walcott-st",
+     "name": "Jefferson",
+     "address": [
+      "549 S. Walcott St.",
+      "Jefferson, TX 75657 US"
+     ],
+     "coords": [
+      32.7559022,
+      -94.3556828
+     ]
+    },
+    {
+     "link": "/tx/kermit/220-east-jim-sharp-boulevard",
+     "name": "Kermit",
+     "address": [
+      "220 East Jim Sharp Boulevard",
+      "Kermit, TX 79745 US"
+     ],
+     "coords": [
+      31.847494270109287,
+      -103.08802932500839
+     ]
+    },
+    {
+     "link": "/tx/livingston/1155-east-church-st",
+     "name": "Livingston",
+     "address": [
+      "1155 East Church St.",
+      "Livingston, TX 77351 US"
+     ],
+     "coords": [
+      30.7119445,
+      -94.920906
+     ]
+    },
+    {
+     "link": "/tx/lubbock/6616-milwaukee-ave",
+     "name": "Lubbock",
+     "address": [
+      "6616 Milwaukee Ave #100",
+      "Lubbock, TX 79424 US"
+     ],
+     "coords": [
+      33.5339337,
+      -101.9576573
+     ]
+    },
+    {
+     "link": "/tx/monahans/2113-s-stockton-ave",
+     "name": "Monahans",
+     "address": [
+      "2113 S Stockton Ave",
+      "Monahans, TX 79756 US"
+     ],
+     "coords": [
+      31.57388983249284,
+      -102.89255797863007
+     ]
+    },
+    {
+     "link": "/tx/mount-vernon/533-interstate-30-w",
+     "name": "Mount Vernon",
+     "address": [
+      "533 Interstate 30 W",
+      "Mount Vernon, TX 75457 US"
+     ],
+     "coords": [
+      33.16035066928746,
+      -95.2325418667624
+     ]
+    },
+    {
+     "link": "/tx/odessa/4250-b-ne-loop-338",
+     "name": "Odessa",
+     "address": [
+      "4250-B NE Loop 338",
+      "Odessa, TX 79762 US"
+     ],
+     "coords": [
+      31.89956636676858,
+      -102.31778999637808
+     ]
+    },
+    {
+     "link": "/tx/tye/600-s-access-rd",
+     "name": "Tye",
+     "address": [
+      "600 S Access Rd",
+      "Tye, TX 79563 US"
+     ],
+     "coords": [
+      32.45858059109779,
+      -99.8566997051239
+     ]
+    },
+    {
+     "link": "/tx/vernon/2824-us-highway-287-w",
+     "name": "Vernon",
+     "address": [
+      "2824 US Highway 287 W",
+      "Vernon, TX 76384 US"
+     ],
+     "coords": [
+      34.1617317,
+      -99.2984924
+     ]
+    },
+    {
+     "link": "/tx/willis/904-west-montgomery-st",
+     "name": "Willis",
+     "address": [
+      "904 West Montgomery St",
+      "Willis, TX 77378 US"
+     ],
+     "coords": [
+      30.4223222,
+      -95.4900936
+     ]
+    }
+   ]
+  },
+  "VA": {
+   "is_complete": true,
+   "locations": [
+    {
+     "link": "/va/bedford/1138-e-lynchburg-salem-turnpike",
+     "name": "Bedford",
+     "address": [
+      "1138 E Lynchburg Salem Turnpike",
+      "Bedford, VA 24523 US"
+     ],
+     "coords": [
+      37.3255741379222,
+      -79.4952720165536
+     ]
+    },
+    {
+     "link": "/va/big-stone-gap/4611-aerial-way",
+     "name": "Big Stone Gap",
+     "address": [
+      "4611 Aerial Way",
+      "Big Stone Gap, VA 24219 US"
+     ],
+     "coords": [
+      36.85856182356538,
+      -82.75288045406342
+     ]
+    },
+    {
+     "link": "/va/blackstone/1407-south-main-st",
+     "name": "Blackstone",
+     "address": [
+      "1407 South Main St.",
+      "Blackstone, VA 23824 US"
+     ],
+     "coords": [
+      37.06183607131141,
+      -78.00624221563334
+     ]
+    },
+    {
+     "link": "/va/bracey/3134-county-road-903",
+     "name": "Bracey",
+     "address": [
+      "3134 County Road 903",
+      "Bracey, VA 23919 US"
+     ],
+     "coords": [
+      36.59999295975765,
+      -78.15154552459717
+     ]
+    },
+    {
+     "link": "/va/chesapeake/473-kempsville-road-110",
+     "name": "Chesapeake",
+     "address": [
+      "473 Kempsville Road #110",
+      "Chesapeake, VA 23320 US"
+     ],
+     "coords": [
+      36.743368045893945,
+      -76.22651754619255
+     ]
+    },
+    {
+     "link": "/va/clintwood/5692-dickenson-hwy",
+     "name": "Clintwood",
+     "address": [
+      "5692 Dickenson Hwy",
+      "Clintwood, VA 24228 US"
+     ],
+     "coords": [
+      37.1477422415296,
+      -82.45935022830963
+     ]
+    },
+    {
+     "link": "/va/emporia/1589-skippers-rd",
+     "name": "Emporia",
+     "address": [
+      "1589 Skippers Rd",
+      "Emporia, VA 23847 US"
+     ],
+     "coords": [
+      36.6644721299077,
+      -77.55397148806873
+     ]
+    },
+    {
+     "link": "/va/farmville/1800-south-main-street",
+     "name": "Farmville",
+     "address": [
+      "1800 South Main Street",
+      "Farmville, VA 23901 US"
+     ],
+     "coords": [
+      37.277513565065064,
+      -78.39798503438942
+     ]
+    },
+    {
+     "link": "/va/franklin/1549-armory-dr",
+     "name": "Franklin",
+     "address": [
+      "1549 Armory Dr",
+      "Franklin, VA 23851 US"
+     ],
+     "coords": [
+      36.66693658106421,
+      -76.95454806089401
+     ]
+    },
+    {
+     "link": "/va/pennington-gap/1526-w-morgan-ave",
+     "name": "Pennington Gap",
+     "address": [
+      "1526 W Morgan Ave",
+      "Pennington Gap, VA 24277 US"
+     ],
+     "coords": [
+      36.750380625936245,
+      -83.04686933755875
+     ]
+    },
+    {
+     "link": "/va/petersburg/11807-south-crater-road",
+     "name": "Petersburg",
+     "address": [
+      "11807 South Crater Road",
+      "Petersburg, VA 23805 US"
+     ],
+     "coords": [
+      37.15089,
+      -77.35619
+     ]
+    },
+    {
+     "link": "/va/richlands/2611-front-st",
+     "name": "Richlands",
+     "address": [
+      "2611 Front St",
+      "Richlands, VA 24641 US"
+     ],
+     "coords": [
+      37.094389,
+      -81.8084187
+     ]
+    },
+    {
+     "link": "/va/saint-paul/16414-wise-st",
+     "name": "Saint Paul",
+     "address": [
+      "16414 Wise St",
+      "Saint Paul, VA 24283 US"
+     ],
+     "coords": [
+      36.90689568935875,
+      -82.31735408306122
+     ]
+    },
+    {
+     "link": "/va/south-boston/3614-old-halifax-road",
+     "name": "South Boston",
+     "address": [
+      "3614 Old Halifax Road",
+      "South Boston, VA 24592 US"
+     ],
+     "coords": [
+      36.734815203165475,
+      -78.9167106934292
+     ]
+    },
+    {
+     "link": "/va/suffolk/2872-pruden-blvd",
+     "name": "Suffolk",
+     "address": [
+      "2872 Pruden Blvd",
+      "Suffolk, VA 23434 US"
+     ],
+     "coords": [
+      36.77001684615099,
+      -76.60652480043609
+     ]
+    },
+    {
+     "link": "/va/virginia-beach/1908-landstown-centre-way-150",
+     "name": "Virginia Beach",
+     "address": [
+      "1908 Landstown Centre Way #150",
+      "Virginia Beach, VA 23456 US"
+     ],
+     "coords": [
+      36.772081514210186,
+      -76.08699023723602
+     ]
+    },
+    {
+     "link": "/va/wise/107-jackson-rd-sw",
+     "name": "Wise",
+     "address": [
+      "107 Jackson Rd SW",
+      "Wise, VA 24293 US"
+     ],
+     "coords": [
+      36.96968031953157,
+      -82.59673297405243
+     ]
+    }
+   ]
+  },
+  "WV": {
+   "is_complete": true,
+   "locations": [
+    {
+     "link": "/wv/buckhannon/1-wbuc-rd",
+     "name": "Buckhannon",
+     "address": [
+      "1 WBUC Rd",
+      "Buckhannon, WV 26201 US"
+     ],
+     "coords": [
+      39.00264390508013,
+      -80.2638441324234
+     ]
+    },
+    {
+     "link": "/wv/chapmanville/1-central-ave",
+     "name": "Chapmanville",
+     "address": [
+      "1 Central Ave",
+      "Chapmanville, WV 25508 US"
+     ],
+     "coords": [
+      37.9653514,
+      -82.0227454
+     ]
+    },
+    {
+     "link": "/wv/moundsville/407-lafayette-ave",
+     "name": "Moundsville",
+     "address": [
+      "407 Lafayette Ave",
+      "Moundsville, WV 26041 US"
+     ],
+     "coords": [
+      39.92341455371559,
+      -80.75030833482742
+     ]
+    },
+    {
+     "link": "/wv/weirton/4150-freedom-way",
+     "name": "Weirton",
+     "address": [
+      "4150 Freedom Way",
+      "Weirton, WV 26062 US"
+     ],
+     "coords": [
+      40.3908843,
+      -80.5957336
+     ]
+    }
+   ]
+  }
+ }
+}
