@@ -11,6 +11,13 @@ import MapKit
 // https://en.wikipedia.org/wiki/Quadtree
 // https://github.com/raywenderlich/swift-algorithm-club/tree/master/QuadTree
 
+enum Quadrant: Int, CaseIterable {
+    case topLeft
+    case bottomLeft
+    case topRight
+    case bottomRight
+}
+
 extension MKMapSize {
 
     var halfSize: MKMapSize {
@@ -35,31 +42,53 @@ extension MKMapRect {
     var bottomRightRect: MKMapRect {
         return MKMapRect(origin: MKMapPoint(x: midX, y: midY), size: size.halfSize)
     }
+
+    func quadRect(quadrant: Quadrant) -> MKMapRect {
+        switch quadrant {
+        case .topLeft:
+            return topLeftRect
+        case .bottomLeft:
+            return bottomLeftRect
+        case .topRight:
+            return topRightRect
+        case .bottomRight:
+            return bottomRightRect
+        }
+    }
 }
 
 class QuadNode<Element: MKOverlay> {
 
-    var topLeft: QuadNode<Element>?
-    var bottomLeft: QuadNode<Element>?
-    var topRight: QuadNode<Element>?
-    var bottomRight: QuadNode<Element>?
+    var children = [QuadNode<Element>?](repeating: nil, count: 4)
 
     var elements: [Element] = []
-    var rect: MKMapRect
+    var bounds: MKMapRect
 
     init(rect: MKMapRect) {
-        self.rect = rect;
+        bounds = rect
     }
 
     @discardableResult
     func insert(element: Element) -> Bool {
 
-        if !rect.contains(element.boundingMapRect) {
+        let elementRect = element.boundingMapRect
+
+        if !bounds.contains(elementRect) {
             return false
         }
 
-        if insertIntoChildren(element: element) {
-            return true
+        for quadrant in Quadrant.allCases {
+            let quadRect = bounds.quadRect(quadrant: quadrant)
+            if quadRect.contains(elementRect) {
+                let index = quadrant.rawValue
+                if children[index] == nil {
+                    children[index] = QuadNode<Element>(rect: quadRect)
+                }
+                if let child = children[index] {
+                    child.insert(element: element)
+                }
+                return true
+            }
         }
 
         elements.append(element)
@@ -67,30 +96,9 @@ class QuadNode<Element: MKOverlay> {
         return true
     }
 
-    @discardableResult
-    private func insertIntoChildren(element: Element) -> Bool {
-
-        if topLeft == nil {
-            topLeft = QuadNode<Element>(rect: rect.topLeftRect)
-            bottomLeft = QuadNode<Element>(rect: rect.bottomLeftRect)
-            topRight = QuadNode<Element>(rect: rect.topRightRect)
-            bottomRight = QuadNode<Element>(rect: rect.bottomRightRect)
-        }
-
-        if let topLeft = topLeft, let bottomLeft = bottomLeft, let topRight = topRight, let bottomRight = bottomRight {
-            for child in [topLeft, bottomLeft, topRight, bottomRight] {
-                if child.insert(element: element) {
-                    return true
-                }
-            }
-        }
-
-        return false
-    }
-
     func elementsIn(rect: MKMapRect) -> [Element] {
 
-        if (!self.rect.intersects(rect)) {
+        if (!bounds.intersects(rect)) {
             return []
         }
 
@@ -102,12 +110,34 @@ class QuadNode<Element: MKOverlay> {
             }
         }
 
-        if let topLeft = topLeft, let bottomLeft = bottomLeft, let topRight = topRight, let bottomRight = bottomRight {
-            for child in [topLeft, bottomLeft, topRight, bottomRight] {
-                collected.append(contentsOf: child.elementsIn(rect: rect))
-            }
+        for case let child? in children {
+            collected.append(contentsOf: child.elementsIn(rect: rect))
         }
 
         return collected
+    }
+
+    func elementsNotInIntersection(newRect: MKMapRect, inNewRect: inout [Element], oldRect: MKMapRect, inOldRect: inout [Element]) {
+
+        if (!bounds.intersects(newRect) && !bounds.intersects(oldRect)) {
+            return
+        }
+
+        let intersectRect = newRect.intersection(oldRect)
+
+        for element in elements {
+            let elementRect = element.boundingMapRect
+            if !intersectRect.intersects(elementRect) {
+                if newRect.intersects(elementRect) {
+                    inNewRect.append(element)
+                } else if oldRect.intersects(elementRect) {
+                    inOldRect.append(element)
+                }
+            }
+        }
+
+        for case let child? in children {
+            child.elementsNotInIntersection(newRect: newRect, inNewRect: &inNewRect, oldRect: oldRect, inOldRect: &inOldRect)
+        }
     }
 }

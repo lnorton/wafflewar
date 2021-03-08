@@ -17,6 +17,8 @@ class ViewController: UIViewController {
     var polyToHouse = [MKPolygon:House]()
     var quadTree: QuadNode<MKPolygon>?
 
+    private var oldMapRect = MKMapRect()
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -74,16 +76,24 @@ extension ViewController: MKMapViewDelegate {
         }
     }
 
+    func mapView(_ mapView: MKMapView, regionWillChangeAnimated animated: Bool) {
+        oldMapRect = mapView.visibleMapRect
+    }
+
     func mapView(_ mapView: MKMapView, regionDidChangeAnimated animated: Bool) {
-
-        mapView.removeOverlays(mapView.overlays)
-
-        let overlays = quadTree!.elementsIn(rect: mapView.visibleMapRect)
-
-        // Crude hack to keep it from choking on too many overlays.
-
-        if overlays.count < 2000 {
-            mapView.addOverlays(overlays)
+        if mapView.overlays.count == 0 {
+            let overlays = quadTree!.elementsIn(rect: mapView.visibleMapRect)
+            if overlays.count < 2000 {
+                mapView.addOverlays(overlays)
+            }
+        } else {
+            var inNewRect = [MKPolygon]()
+            var inOldRect = [MKPolygon]()
+            quadTree!.elementsNotInIntersection(newRect: mapView.visibleMapRect, inNewRect: &inNewRect, oldRect: oldMapRect, inOldRect: &inOldRect)
+            mapView.removeOverlays(inOldRect)
+            if inNewRect.count < 2000 {
+                mapView.addOverlays(inNewRect)
+            }
         }
     }
 }
