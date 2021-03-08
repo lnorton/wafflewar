@@ -21,7 +21,7 @@ extension MKMapSize {
 extension MKMapRect {
 
     var topLeftRect: MKMapRect {
-        return MKMapRect(origin: origin, size: size.halfSize)
+        return MKMapRect(origin: MKMapPoint(x: minX, y: minY), size: size.halfSize)
     }
 
     var bottomLeftRect: MKMapRect {
@@ -39,8 +39,6 @@ extension MKMapRect {
 
 class QuadNode<Element: MKOverlay> {
 
-    let capacity = 50
-
     var topLeft: QuadNode<Element>?
     var bottomLeft: QuadNode<Element>?
     var topRight: QuadNode<Element>?
@@ -56,7 +54,7 @@ class QuadNode<Element: MKOverlay> {
     @discardableResult
     func insert(element: Element) -> Bool {
 
-        if !rect.intersects(element.boundingMapRect) {
+        if !rect.contains(element.boundingMapRect) {
             return false
         }
 
@@ -66,15 +64,18 @@ class QuadNode<Element: MKOverlay> {
 
         elements.append(element)
 
-        if elements.count == capacity {
-            subdivide()
-        }
-
         return true
     }
 
     @discardableResult
     private func insertIntoChildren(element: Element) -> Bool {
+
+        if topLeft == nil {
+            topLeft = QuadNode<Element>(rect: rect.topLeftRect)
+            bottomLeft = QuadNode<Element>(rect: rect.bottomLeftRect)
+            topRight = QuadNode<Element>(rect: rect.topRightRect)
+            bottomRight = QuadNode<Element>(rect: rect.bottomRightRect)
+        }
 
         if let topLeft = topLeft, let bottomLeft = bottomLeft, let topRight = topRight, let bottomRight = bottomRight {
             for child in [topLeft, bottomLeft, topRight, bottomRight] {
@@ -85,20 +86,6 @@ class QuadNode<Element: MKOverlay> {
         }
 
         return false
-    }
-
-    private func subdivide() {
-
-        topLeft = QuadNode<Element>(rect: rect.topLeftRect)
-        bottomLeft = QuadNode<Element>(rect: rect.bottomLeftRect)
-        topRight = QuadNode<Element>(rect: rect.topRightRect)
-        bottomRight = QuadNode<Element>(rect: rect.bottomRightRect)
-
-        for element in elements {
-            insertIntoChildren(element: element)
-        }
-
-        elements.removeAll()
     }
 
     func elementsIn(rect: MKMapRect) -> [Element] {
