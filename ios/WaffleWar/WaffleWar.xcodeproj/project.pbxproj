@@ -14,6 +14,7 @@
 		BF3D7B1C25EFEAA800EC976A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF3D7B1A25EFEAA800EC976A /* LaunchScreen.storyboard */; };
 		BF3D7B2725EFEAA800EC976A /* WaffleWarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3D7B2625EFEAA800EC976A /* WaffleWarTests.swift */; };
 		BF3D7B3225EFEAA800EC976A /* WaffleWarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3D7B3125EFEAA800EC976A /* WaffleWarUITests.swift */; };
+		BF5C29EA25F5B423003D9C4D /* QuadTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5C29E925F5B423003D9C4D /* QuadTree.swift */; };
 		BF689F3B25F31BD9004F5459 /* houses.json in Resources */ = {isa = PBXBuildFile; fileRef = BF689F2A25F31AE7004F5459 /* houses.json */; };
 /* End PBXBuildFile section */
 
@@ -48,6 +49,7 @@
 		BF3D7B2D25EFEAA800EC976A /* WaffleWarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaffleWarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF3D7B3125EFEAA800EC976A /* WaffleWarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaffleWarUITests.swift; sourceTree = "<group>"; };
 		BF3D7B3325EFEAA800EC976A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF5C29E925F5B423003D9C4D /* QuadTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuadTree.swift; sourceTree = "<group>"; };
 		BF689F2A25F31AE7004F5459 /* houses.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = houses.json; path = ../../python/houses.json; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
@@ -102,6 +104,7 @@
 				BF689F2A25F31AE7004F5459 /* houses.json */,
 				BF3D7B0F25EFEAA500EC976A /* AppDelegate.swift */,
 				BF3D7B1325EFEAA500EC976A /* ViewController.swift */,
+				BF5C29E925F5B423003D9C4D /* QuadTree.swift */,
 				BF3D7B1525EFEAA500EC976A /* Main.storyboard */,
 				BF3D7B1825EFEAA800EC976A /* Assets.xcassets */,
 				BF3D7B1A25EFEAA800EC976A /* LaunchScreen.storyboard */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF5C29EA25F5B423003D9C4D /* QuadTree.swift in Sources */,
 				BF3D7B1425EFEAA500EC976A /* ViewController.swift in Sources */,
 				BF3D7B1025EFEAA500EC976A /* AppDelegate.swift in Sources */,
 			);

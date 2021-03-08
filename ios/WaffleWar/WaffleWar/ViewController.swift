@@ -13,19 +13,23 @@ class ViewController: UIViewController {
     @IBOutlet
     var mapView: MKMapView?
 
+    var houses = [House]()
     var polyToHouse = [MKPolygon:House]()
+    var quadTree: QuadNode<MKPolygon>?
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        quadTree = QuadNode<MKPolygon>(rect: MKMapRect.world)
+
         do {
             if let data = readLocalJSONFile(forName: "houses") {
-                let houses = try JSONDecoder().decode([House].self, from: data)
+                houses = try JSONDecoder().decode([House].self, from: data)
                 for house in houses {
-                    var polys: [CLLocationCoordinate2D] = house.region.map { CLLocationCoordinate2DMake($0[0], $0[1]) }
-                    let polygon = MKPolygon(coordinates: &polys, count: polys.count)
+                    var coordinates: [CLLocationCoordinate2D] = house.region.map { CLLocationCoordinate2DMake($0[0], $0[1]) }
+                    let polygon = MKPolygon(coordinates: &coordinates, count: coordinates.count)
                     polyToHouse[polygon] = house
-                    mapView!.addOverlay(polygon)
+                    quadTree!.insert(element: polygon)
                 }
             }
         } catch {
@@ -67,6 +71,19 @@ extension ViewController: MKMapViewDelegate {
             return renderer
         } else {
             return MKOverlayRenderer()
+        }
+    }
+
+    func mapView(_ mapView: MKMapView, regionDidChangeAnimated animated: Bool) {
+
+        mapView.removeOverlays(mapView.overlays)
+
+        let overlays = quadTree!.elementsIn(rect: mapView.visibleMapRect)
+
+        // Crude hack to keep it from choking on too many overlays.
+
+        if overlays.count < 2000 {
+            mapView.addOverlays(overlays)
         }
     }
 }
