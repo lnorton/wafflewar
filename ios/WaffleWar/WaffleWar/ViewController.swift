@@ -81,19 +81,26 @@ extension ViewController: MKMapViewDelegate {
     }
 
     func mapView(_ mapView: MKMapView, regionDidChangeAnimated animated: Bool) {
-        if mapView.overlays.count == 0 {
-            let overlays = quadTree!.elementsIn(rect: mapView.visibleMapRect)
-            if overlays.count < 2000 {
-                mapView.addOverlays(overlays)
+
+        let size = mapView.visibleMapRect.size
+        let overlays = mapView.overlays
+
+        if max(size.width, size.height) > 8000000.0 {
+            if overlays.count > 0 {
+                mapView.removeOverlays(overlays)
             }
+            return
+        }
+
+        if overlays.count == 0 {
+            let overlays = quadTree!.elementsIn(rect: mapView.visibleMapRect)
+            mapView.addOverlays(overlays)
         } else {
             var inNewRect = [MKPolygon]()
             var inOldRect = [MKPolygon]()
             quadTree!.elementsNotInIntersection(newRect: mapView.visibleMapRect, inNewRect: &inNewRect, oldRect: oldMapRect, inOldRect: &inOldRect)
             mapView.removeOverlays(inOldRect)
-            if inNewRect.count < 2000 {
-                mapView.addOverlays(inNewRect)
-            }
+            mapView.addOverlays(inNewRect)
         }
     }
 }
