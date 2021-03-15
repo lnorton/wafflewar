@@ -9,7 +9,7 @@ import UIKit
 import MapboxMaps
 import Turf
 
-class MapBoxViewController: UIViewController {
+class MapboxViewController: UIViewController {
 
     var mapView: MapView!
 
@@ -58,8 +58,6 @@ class MapBoxViewController: UIViewController {
 
                 // Turn the "houses" into GeoJSON data, but skipping the nasty JSON part.
 
-                let geoJSONDataSourceIdentifier = "geoJSON-data-source"
-
                 var features = [Feature]()
                 for house in houses {
                     let coordinates: [CLLocationCoordinate2D] = house.region.map { CLLocationCoordinate2DMake($0[0], $0[1]) }
@@ -77,37 +75,41 @@ class MapBoxViewController: UIViewController {
                 var geoJSONSource = GeoJSONSource()
                 geoJSONSource.data = .featureCollection(featureCollection)
 
+                let geoJSONDataSourceIdentifier = "geoJSON-data-source"
+
+                mapView.style.addSource(source: geoJSONSource, identifier: geoJSONDataSourceIdentifier)
+
                 var waffleLayer = FillLayer(id: "waffle-layer")
                 waffleLayer.source = geoJSONDataSourceIdentifier
+                waffleLayer.paint?.fillColor = .constant(ColorRepresentable(color: UIColor.yellow.withAlphaComponent(0.25)))
+                waffleLayer.paint?.fillOutlineColor = .constant(ColorRepresentable(color: UIColor.darkGray))
                 waffleLayer.filter = Exp(.eq) {
                     Exp(.get) { "house" }
                     "WH"
                 }
-                waffleLayer.paint?.fillColor = .constant(ColorRepresentable(color: UIColor.yellow.withAlphaComponent(0.25)))
-                waffleLayer.paint?.fillOutlineColor = .constant(ColorRepresentable(color: UIColor.darkGray))
+
+                mapView.style.addLayer(layer: waffleLayer)
 
                 var huddleLayer = FillLayer(id: "huddle-layer")
                 huddleLayer.source = geoJSONDataSourceIdentifier
+                huddleLayer.paint?.fillColor = .constant(ColorRepresentable(color: UIColor.orange.withAlphaComponent(0.25)))
+                huddleLayer.paint?.fillOutlineColor = .constant(ColorRepresentable(color: UIColor.darkGray))
                 huddleLayer.filter = Exp(.eq) {
                     Exp(.get) { "house" }
                     "HH"
                 }
-                huddleLayer.paint?.fillColor = .constant(ColorRepresentable(color: UIColor.orange.withAlphaComponent(0.25)))
-                huddleLayer.paint?.fillOutlineColor = .constant(ColorRepresentable(color: UIColor.darkGray))
+
+                mapView.style.addLayer(layer: huddleLayer)
 
                 var pancakeLayer = FillLayer(id: "pancake-layer")
                 pancakeLayer.source = geoJSONDataSourceIdentifier
-                pancakeLayer.source = geoJSONDataSourceIdentifier
+                pancakeLayer.paint?.fillColor = .constant(ColorRepresentable(color: UIColor.blue.withAlphaComponent(0.25)))
+                pancakeLayer.paint?.fillOutlineColor = .constant(ColorRepresentable(color: UIColor.darkGray))
                 pancakeLayer.filter = Exp(.eq) {
                     Exp(.get) { "house" }
                     "IHOP"
                 }
-                pancakeLayer.paint?.fillColor = .constant(ColorRepresentable(color: UIColor.blue.withAlphaComponent(0.25)))
-                pancakeLayer.paint?.fillOutlineColor = .constant(ColorRepresentable(color: UIColor.darkGray))
 
-                mapView.style.addSource(source: geoJSONSource, identifier: geoJSONDataSourceIdentifier)
-                mapView.style.addLayer(layer: waffleLayer)
-                mapView.style.addLayer(layer: huddleLayer)
                 mapView.style.addLayer(layer: pancakeLayer)
             }
         } catch {

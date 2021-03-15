@@ -9,4 +9,4 @@ Each terroritory is rendered by the Android and iOS application in their respect
 
 You'll need an API key for Google Maps on Android.
 
-You'll need a MapBox token for iOS, or you can alter the project to use the MapKit-based view controller.
+You'll need a Mapbox token for iOS, or you can alter the project to use the MapKit-based view controller.

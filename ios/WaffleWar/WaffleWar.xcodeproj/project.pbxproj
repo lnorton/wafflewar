@@ -17,7 +17,7 @@
 		BF5C29EA25F5B423003D9C4D /* QuadTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5C29E925F5B423003D9C4D /* QuadTree.swift */; };
 		BF689F3B25F31BD9004F5459 /* houses.json in Resources */ = {isa = PBXBuildFile; fileRef = BF689F2A25F31AE7004F5459 /* houses.json */; };
 		BFDF791525FC33B000F73C49 /* MapboxMaps in Frameworks */ = {isa = PBXBuildFile; productRef = BFDF791425FC33B000F73C49 /* MapboxMaps */; };
-		BFDF792125FD8E7500F73C49 /* MapBoxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFDF792025FD8E7500F73C49 /* MapBoxViewController.swift */; };
+		BFDF792125FD8E7500F73C49 /* MapboxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFDF792025FD8E7500F73C49 /* MapboxViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,7 +53,7 @@
 		BF3D7B3325EFEAA800EC976A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF5C29E925F5B423003D9C4D /* QuadTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuadTree.swift; sourceTree = "<group>"; };
 		BF689F2A25F31AE7004F5459 /* houses.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = houses.json; path = ../../python/houses.json; sourceTree = SOURCE_ROOT; };
-		BFDF792025FD8E7500F73C49 /* MapBoxViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapBoxViewController.swift; sourceTree = "<group>"; };
+		BFDF792025FD8E7500F73C49 /* MapboxViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapboxViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,7 +107,7 @@
 			children = (
 				BF3D7B0F25EFEAA500EC976A /* AppDelegate.swift */,
 				BF3D7B1325EFEAA500EC976A /* ViewController.swift */,
-				BFDF792025FD8E7500F73C49 /* MapBoxViewController.swift */,
+				BFDF792025FD8E7500F73C49 /* MapboxViewController.swift */,
 				BF5C29E925F5B423003D9C4D /* QuadTree.swift */,
 				BF3D7B1525EFEAA500EC976A /* Main.storyboard */,
 				BF3D7B1825EFEAA800EC976A /* Assets.xcassets */,
@@ -299,7 +299,7 @@
 				BF5C29EA25F5B423003D9C4D /* QuadTree.swift in Sources */,
 				BF3D7B1425EFEAA500EC976A /* ViewController.swift in Sources */,
 				BF3D7B1025EFEAA500EC976A /* AppDelegate.swift in Sources */,
-				BFDF792125FD8E7500F73C49 /* MapBoxViewController.swift in Sources */,
+				BFDF792125FD8E7500F73C49 /* MapboxViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
