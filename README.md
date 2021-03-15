@@ -5,4 +5,8 @@ In the python directory are scripts that can scrape the locations of every Waffl
 
 From those files, voronoi.py can partition the United States into terrorities, one for each restaurant.
 
-Each terroritory is rendered by the Android and iOS application in their respective directories. You'll need an API key for Google Maps on Android.
+Each terroritory is rendered by the Android and iOS application in their respective directories.
+
+You'll need an API key for Google Maps on Android.
+
+You'll need a MapBox token for iOS, or you can alter the project to use the MapKit-based view controller.

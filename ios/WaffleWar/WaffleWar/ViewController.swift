@@ -25,7 +25,7 @@ class ViewController: UIViewController {
         quadTree = QuadNode<MKPolygon>(rect: MKMapRect.world)
 
         do {
-            if let data = readLocalJSONFile(forName: "houses") {
+            if let data = ViewController.readLocalJSONFile(forName: "houses") {
                 houses = try JSONDecoder().decode([House].self, from: data)
                 for house in houses {
                     var coordinates: [CLLocationCoordinate2D] = house.region.map { CLLocationCoordinate2DMake($0[0], $0[1]) }
@@ -38,7 +38,7 @@ class ViewController: UIViewController {
         }
     }
 
-    private func readLocalJSONFile(forName name: String) -> Data? {
+    class func readLocalJSONFile(forName name: String) -> Data? {
         do {
             if let bundlePath = Bundle.main.path(forResource: name, ofType: "json") {
                 return try String(contentsOfFile: bundlePath).data(using: .utf8)

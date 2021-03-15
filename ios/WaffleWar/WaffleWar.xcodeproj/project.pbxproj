@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,6 +16,8 @@
 		BF3D7B3225EFEAA800EC976A /* WaffleWarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3D7B3125EFEAA800EC976A /* WaffleWarUITests.swift */; };
 		BF5C29EA25F5B423003D9C4D /* QuadTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5C29E925F5B423003D9C4D /* QuadTree.swift */; };
 		BF689F3B25F31BD9004F5459 /* houses.json in Resources */ = {isa = PBXBuildFile; fileRef = BF689F2A25F31AE7004F5459 /* houses.json */; };
+		BFDF791525FC33B000F73C49 /* MapboxMaps in Frameworks */ = {isa = PBXBuildFile; productRef = BFDF791425FC33B000F73C49 /* MapboxMaps */; };
+		BFDF792125FD8E7500F73C49 /* MapBoxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFDF792025FD8E7500F73C49 /* MapBoxViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,7 @@
 		BF3D7B3325EFEAA800EC976A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF5C29E925F5B423003D9C4D /* QuadTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuadTree.swift; sourceTree = "<group>"; };
 		BF689F2A25F31AE7004F5459 /* houses.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = houses.json; path = ../../python/houses.json; sourceTree = SOURCE_ROOT; };
+		BFDF792025FD8E7500F73C49 /* MapBoxViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapBoxViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFDF791525FC33B000F73C49 /* MapboxMaps in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,14 +105,15 @@
 		BF3D7B0E25EFEAA500EC976A /* WaffleWar */ = {
 			isa = PBXGroup;
 			children = (
-				BF689F2A25F31AE7004F5459 /* houses.json */,
 				BF3D7B0F25EFEAA500EC976A /* AppDelegate.swift */,
 				BF3D7B1325EFEAA500EC976A /* ViewController.swift */,
+				BFDF792025FD8E7500F73C49 /* MapBoxViewController.swift */,
 				BF5C29E925F5B423003D9C4D /* QuadTree.swift */,
 				BF3D7B1525EFEAA500EC976A /* Main.storyboard */,
 				BF3D7B1825EFEAA800EC976A /* Assets.xcassets */,
 				BF3D7B1A25EFEAA800EC976A /* LaunchScreen.storyboard */,
 				BF3D7B1D25EFEAA800EC976A /* Info.plist */,
+				BF689F2A25F31AE7004F5459 /* houses.json */,
 			);
 			path = WaffleWar;
 			sourceTree = "<group>";
@@ -141,12 +146,16 @@
 				BF3D7B0825EFEAA500EC976A /* Sources */,
 				BF3D7B0925EFEAA500EC976A /* Frameworks */,
 				BF3D7B0A25EFEAA500EC976A /* Resources */,
+				BFDF791925FD8C6100F73C49 /* Assign MapBox Access Token */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = WaffleWar;
+			packageProductDependencies = (
+				BFDF791425FC33B000F73C49 /* MapboxMaps */,
+			);
 			productName = WaffleWar;
 			productReference = BF3D7B0C25EFEAA500EC976A /* WaffleWar.app */;
 			productType = "com.apple.product-type.application";
@@ -218,6 +227,9 @@
 				Base,
 			);
 			mainGroup = BF3D7B0325EFEAA500EC976A;
+			packageReferences = (
+				BFDF791325FC33B000F73C49 /* XCRemoteSwiftPackageReference "mapbox-maps-ios" */,
+			);
 			productRefGroup = BF3D7B0D25EFEAA500EC976A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -257,6 +269,28 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		BFDF791925FD8C6100F73C49 /* Assign MapBox Access Token */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(TARGET_BUILD_DIR)/$(INFOPLIST_PATH)",
+			);
+			name = "Assign MapBox Access Token";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Look for a global file named 'mapbox' or '.mapbox' within the home directory\ntoken_file=~/.mapbox\ntoken=\"$(cat $token_file 2>/dev/null)\"\nif [ \"$token\" ]; then\n  plutil -replace MBXAccessToken -string $token \"$TARGET_BUILD_DIR/$INFOPLIST_PATH\"\nelse\n  echo 'warning: Missing Mapbox access token'\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BF3D7B0825EFEAA500EC976A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -265,6 +299,7 @@
 				BF5C29EA25F5B423003D9C4D /* QuadTree.swift in Sources */,
 				BF3D7B1425EFEAA500EC976A /* ViewController.swift in Sources */,
 				BF3D7B1025EFEAA500EC976A /* AppDelegate.swift in Sources */,
+				BFDF792125FD8E7500F73C49 /* MapBoxViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,7 +478,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KQYBH4W5UC;
 				INFOPLIST_FILE = WaffleWar/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -463,7 +498,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KQYBH4W5UC;
 				INFOPLIST_FILE = WaffleWar/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -599,6 +634,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BFDF791325FC33B000F73C49 /* XCRemoteSwiftPackageReference "mapbox-maps-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mapbox/mapbox-maps-ios.git";
+			requirement = {
+				kind = exactVersion;
+				version = "10.0.0-beta.15";
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BFDF791425FC33B000F73C49 /* MapboxMaps */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BFDF791325FC33B000F73C49 /* XCRemoteSwiftPackageReference "mapbox-maps-ios" */;
+			productName = MapboxMaps;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = BF3D7B0425EFEAA500EC976A /* Project object */;
 }
